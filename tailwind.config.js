@@ -51,9 +51,13 @@ module.exports = {
   "14xl": "4.8125rem",
   "15xl": "5.3345842361450195rem",
   "full": "9999px"
- }
-
-    }
+ },
+extend: {
+      gridTemplateColumns: {
+        principal: 'repeat(12, minmax(0, 64px))'
+      }
+		}
   },
   plugins: []
+}
 }

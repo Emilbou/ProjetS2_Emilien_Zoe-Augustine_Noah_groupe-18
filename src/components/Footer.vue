@@ -16,7 +16,7 @@
           <div>
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Accueil</h2>
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Mentions légales</h2>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">A propos</h2>
+            <a href="src/Apropos.vue"> <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">A propos</h2> </a>
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Contact</h2>
             
           </div>

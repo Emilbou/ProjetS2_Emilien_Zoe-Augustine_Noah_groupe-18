@@ -16,8 +16,3 @@
     @apply font-serif text-xl leading-tight;
   }
 }
-@layer components {
-  .grille {
-    @apply lg:grid-cols-principal px-6 lg:grid lg:justify-center lg:gap-12;
-  }
-}

@@ -3,7 +3,7 @@ import App from './App.vue'
 import routes from '~pages'
 import { createRouter, createWebHistory } from 'vue-router'
 
-import './main.css'
+import './assets/main.css'
 
 const router = createRouter({
   history: createWebHistory(),

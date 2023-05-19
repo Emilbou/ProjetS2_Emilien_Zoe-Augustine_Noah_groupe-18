@@ -14,10 +14,10 @@
         </div>
         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-5">
           <div>
-            <RouterLink to="/"> <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Accueil</h2></RouterLink>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Mentions légales</h2>
+            <RouterLink to="/"> <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Accueil</h2> </RouterLink>
+            <RouterLink to="/Legal"> <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Mentions légales</h2> </RouterLink>
             <RouterLink to="/about"> <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">A propos</h2> </RouterLink>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Contact</h2>
+            <RouterLink to="/contact"> <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Contact</h2> </RouterLink>
             
           </div>
           <div>

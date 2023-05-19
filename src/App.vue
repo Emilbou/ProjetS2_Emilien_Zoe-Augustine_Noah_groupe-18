@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import TestComponent from './components/TestComponent.vue';
 import Footer from './components/Footer.vue';
+
+
 </script>
 
 <template>
@@ -9,5 +11,6 @@ import Footer from './components/Footer.vue';
     <TestComponent class="mx-5 items-center content-center" />
 
   </div>
-<Footer />
+   
+ <footer> </footer>
 </template>

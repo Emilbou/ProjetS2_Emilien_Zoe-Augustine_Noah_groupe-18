@@ -14,9 +14,9 @@
         </div>
         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-5">
           <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Accueil</h2>
+            <RouterLink to="/"> <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Accueil</h2></RouterLink>
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Mentions légales</h2>
-            <a href="src/Apropos.vue"> <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">A propos</h2> </a>
+            <RouterLink to="/about"> <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">A propos</h2> </RouterLink>
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Contact</h2>
             
           </div>

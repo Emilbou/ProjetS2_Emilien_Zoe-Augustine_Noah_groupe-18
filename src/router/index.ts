@@ -2,7 +2,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 // Quand tu crée une page qui doit s'afficher, tu l'importes comme ça
 
 import HomeView from '../pages/HomeView.vue'
-import AboutViewVue from '@/pages/AboutView.vue'
+import AboutVue from '@/pages/About.vue'
+import LegalVue from '@/pages/LegalView.vue'
+import contactVue from '@/pages/contact.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -21,17 +23,17 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: AboutViewVue
+      component: AboutVue
     },
     {
       path: '/Legal',
       name: 'Legal',
-      component: () => import('../pages/LegalView.vue')
+      component: LegalVue
     },
     {
       path: '/Contact',
       name: 'Contact',
-      component: () => import('../pages/ContactView.vue')
+      component: contactVue
     },
   ]
 })

@@ -15,5 +15,7 @@
   h3 {
     @apply font-poppins text-xl leading-tight;
   }
+  p {
+  @apply font-poppins text-base}
 }
 

@@ -9,7 +9,7 @@ import header from './components/header.vue';
 
 <template>
  
- <section class="px-60">
+ <section class="px-60 bg-beige">
   <RouterView />
 </section>
 <Footer />

@@ -9,13 +9,8 @@ import header from './components/header.vue';
 
 <template>
  
-  
-  <p class="bg text-2xl font-poppins">test</p>
-  <div class="flex px-3">
-    <TestComponent class="mx-5 items-center content-center" />
-
-  </div>
-
+ <section class="px-60">
   <RouterView />
-<Footer/>
+</section>
+<Footer />
 </template>

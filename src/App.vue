@@ -12,4 +12,5 @@ import header from './components/header.vue';
  <section class="px-60 bg-beige">
   <RouterView />
 </section>
+<Footer></Footer>
 </template>

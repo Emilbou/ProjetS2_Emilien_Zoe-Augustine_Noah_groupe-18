@@ -3,7 +3,7 @@
 
 </script>
 <template>
-  <footer class="bg-green-light fixed bottom-0 left-0 right-0  ">
+  <footer class="bg-green-light  bottom-0 left-0 right-0  ">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 lg:pr-36 lg:pl-5">
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">

@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { Collections, type AlimentsResponse } from '.././pocketbase-types';
-import MaisonCard from '.././components/MaisonCard.vue';
 
 
 // a completer
@@ -17,8 +15,6 @@ import MaisonCard from '.././components/MaisonCard.vue';
             beatae illo labore, praesentium quidem nulla eveniet, at voluptatem incidunt. Eaque explicabo,
             vitae quibusdam vero quod atque.
         </p>
-        <div v-for="Aliments of ">
-            <AlimentsCard v-bind="Aliments" />
-        </div>
+   
     </main>
 </template>

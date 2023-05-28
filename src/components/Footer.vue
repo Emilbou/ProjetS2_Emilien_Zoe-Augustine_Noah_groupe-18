@@ -18,7 +18,7 @@
             <RouterLink to="/"> <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Accueil</h2> </RouterLink>
             <RouterLink to="/Legal"> <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Mentions légales</h2> </RouterLink>
             <RouterLink to="/about"> <h2 class="mb-6 text-sm font-bold text-green-dull  uppercase ">A propos</h2> </RouterLink>
-            <RouterLink to="/contact"> <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Contact</h2> </RouterLink>
+            <RouterLink to="/profil"> <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Contact</h2> </RouterLink>
 
             
           </div>

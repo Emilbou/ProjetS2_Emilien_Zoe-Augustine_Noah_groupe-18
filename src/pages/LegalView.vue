@@ -218,9 +218,9 @@
     <div
       class="w-[185px] h-14 absolute left-[662.5px] top-[879.5px] rounded-[180px] bg-[#4c6c5e]"
     ></div>
-    <p class="absolute left-[692px] top-[896px] text-base font-bold text-left text-[#fffaef]">
+    <button class="absolute left-[692px] top-[896px] text-base font-bold text-left text-[#fffaef] ">
       Nous contacter
-    </p>
+    </button>
   </div>
   <div class="w-[1512px] h-[86px] absolute left-0 top-0 bg-[#fffaef]">
     <div class="w-[1373px] h-[87.77px]">

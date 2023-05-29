@@ -6,6 +6,9 @@ import AboutVue from '@/pages/About.vue'
 import LegalVue from '@/pages/LegalView.vue'
 import contactVue from '@/pages/contact.vue'
 import panierVue from  '@/pages/panier.vue'
+import FicheProduitVue from '@/pages/FicheProduit.vue'
+
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -41,7 +44,16 @@ const router = createRouter({
       name: 'panier',
       component: panierVue
     },
-
+    {
+      path: '/FicheProduit',
+      name: 'FicheProduit',
+      component: FicheProduitVue
+    },
+    {
+      path: '/Ficherecette',
+      name: 'Ficherecette',
+      component: 
+    },
   ]
 })
 

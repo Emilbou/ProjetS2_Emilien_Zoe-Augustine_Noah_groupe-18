@@ -23,7 +23,7 @@
             
           </div>
           <div>
-            <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Produits</h2>
+            <RouterLink to="/FicheProduit"> <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Produits</h2> </RouterLink>
             <ul class="text-beige  font-medium">
               <li class="mb-4">
                 <a href="https://flowbite.com/" class="hover:underline">Fruits</a>
@@ -46,7 +46,7 @@
             </ul>
           </div>
           <div>
-            <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Recettes</h2>
+            <RouterLink to="/Ficherecette"> <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Recettes</h2> </RouterLink>
             <ul class="text-beige  font-medium">
               <li class="mb-4">
                 <a href="https://flowbite.com/" class="hover:underline">Entrées</a>

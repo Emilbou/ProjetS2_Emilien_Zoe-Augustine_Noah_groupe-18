@@ -68,7 +68,7 @@
           </div>
           <div>
             <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Connexion</h2>
-            <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Panier</h2>
+            <RouterLink to="/panier"> <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Panier</h2> </RouterLink> 
             
           </div>
           <div>

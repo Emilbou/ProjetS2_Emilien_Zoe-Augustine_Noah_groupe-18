@@ -5,11 +5,11 @@
 <template>
     <main>
 
-        <img class=" " src="src/assets/herbes.webp" alt="">
-
-        <h1>votre panier</h1>
-
+        <img class="  " src="src/assets/herbes.webp" alt="">
+        
         <div class="grid grid-cols-12 gap-20 bg">
+            <h1 class="col-start-3 col-span-9 font-europa-grotesk-sh text-green-dull mt-3">Votre panier</h1>
+            <div class="col-span-7 bg-white"></div>
             <div class=" bg-white col-start-8 col-span-6 ">
                 <p>
                     En achetant sur Rue des Saveurs, vous vous engagez à respecter nos termes et conditions. Nous vous

@@ -7,6 +7,7 @@ import LegalVue from '@/pages/LegalView.vue'
 import contactVue from '@/pages/contact.vue'
 import panierVue from  '@/pages/panier.vue'
 import FicheProduitVue from '@/pages/FicheProduit.vue'
+import FicherecetteVue from '@/pages/Ficherecette.vue'
 
 
 
@@ -52,7 +53,7 @@ const router = createRouter({
     {
       path: '/Ficherecette',
       name: 'Ficherecette',
-      component: 
+      component: FicherecetteVue
     },
   ]
 })

@@ -12,7 +12,7 @@ import headerLayout from '@/components/header.vue';
 <header>
   <headerLayout />
 </header>
- <section class="px-60 bg-beige">
+ <section class=" bg-beige ">
   <RouterView />
 </section>
 <Footer></Footer>

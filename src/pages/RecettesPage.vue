@@ -1,20 +1,10 @@
 
-
 <template>
-    <section class="mx-auto my-auto w-full flex">
-        <div class="grid grid-cols-12 gap-4">
-          <div class="col-span-4">
-            <img class="w-full aspect-w-1 aspect-h-1" src="https://picsum.photos/888/288" alt="">
-          </div>
-          <div class="col-span-8">
-    
-    
+    <div class="flex justify-center p-20">
         <GoogleMap :api-key="apiKey" class="w-2/3 h-72 "   :center="{lat: lat, lng: lng}" :zoom="15"> 
         <Marker :options="{position: {lat: lat, lng: lng}}"/> </GoogleMap>
+        <img class="w-1/3 aspect-w-1 aspect-h-1" src="https://picsum.photos/888/288" alt="">
     </div>
-    </div>
-    </section>
-    
     </template>
     <script >
     

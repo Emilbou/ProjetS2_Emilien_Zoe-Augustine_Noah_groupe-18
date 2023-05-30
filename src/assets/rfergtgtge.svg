@@ -1,64 +1,4 @@
-<script setup lang="ts">
-
-</script>
-
-<template>
- 
-  <div class="grid grid-cols-7 gap-20">
-    <div class="col-span-2"> </div>
-    <div class="col-span-4 ">
-      <h2 class=" font-europa-grotesk-sh text-green-dull "> Pour en savoir plus...</h2>
-      <h2 class=" font-europa-grotesk-sh text-green-mid"> Nos mentions légales</h2>
-      <p class=" text-green-dull mt-9"> Rue des Saveurs est le fruit d'un projet collectif au sein du département MMi
-        (Métiers du Multimédia et d'Internet) de l'IUT Nord Franche-Comté. </p>
-      <div class="grid grid-cols-3 gap-4 mt-8">
-        <div>
-          <h3 class="font-poppins font-bold text-green-dull ">Propriétaire</h3>
-          <p class=" text-green-mid mt-3 ">
-            SARL Rue des Saveurs <br>
-            4 Place Tharradin <br>
-            25200 Montbéliard <br>
-            France
-          </p>
-        </div>
-        <div>
-          <h3 class=" font-poppins font-bold text-green-dull">Hébergeur</h3>
-          <p class=" text-green-mid mt-3 ">
-            Infomaniak <br>
-            9 Rue de la Gabelle <br>
-            1227 Carouge (Genève) <br>
-            Suisse <br>
-          </p>
-        </div>
-      </div>
-
-      <div class="grid grid-cols-3 gap-4 mt-8">
-        <div>
-          <h3 class="font-poppins font-bold text-green-dull ">Intégration web</h3>
-          <p class=" text-green-mid mt-3 ">
-            Emilien Boucard
-            emil.boucard@gmail.com
-          </p>
-        </div>
-        <div>
-          <h3 class=" font-poppins font-bold text-green-dull">Hébergeur</h3>
-          <p class=" text-green-mid mt-3 ">
-            Zoe-Augustine Vicat
-            zoe.a.vicat@gmail.com
-          </p>
-        </div>
-        <div class="">
-          <h3 class=" font-poppins font-bold text-green-dull">Chargé de communication</h3>
-          <p class=" text-green-mid mt-3 ">
-            Noah Lafource
-            noahlafourcade1@gmail.com
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="absolute top-2/4 right-0  ">
-    <svg width="233" height="413" viewBox="0 0 233 413" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="233" height="413" viewBox="0 0 233 413" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_1311_24053)">
 <path d="M72.5 145C112.541 145 145 112.541 145 72.5C145 32.4594 112.541 0 72.5 0C32.4594 0 0 32.4594 0 72.5C0 112.541 32.4594 145 72.5 145Z" fill="#FFD975"/>
 <path d="M72.5006 140.606C110.115 140.606 140.607 110.114 140.607 72.4999C140.607 34.8859 110.115 4.3938 72.5006 4.3938C34.8867 4.3938 4.39453 34.8859 4.39453 72.4999C4.39453 110.114 34.8867 140.606 72.5006 140.606Z" fill="#FFFAEF"/>
@@ -93,21 +33,3 @@
 </clipPath>
 </defs>
 </svg>
-</div>
-
-<div class=" absolute top-120 left-0">
-<svg width="196" height="325" viewBox="0 0 196 325" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle opacity="0.4" cx="33.5" cy="162.5" r="162.5" fill="#FFD975"/>
-</svg>
-</div>
-
-   <div class="flex justify-center items-center mt-32 pb-32">
-  <button class=" bg-green-dull text-beige font-bold py-3 px-5 rounded-full">
-    Nous contacter
-  </button>
-</div>
-
-
-
-</template>
-

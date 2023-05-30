@@ -57,13 +57,7 @@
       </div>
     </div>
   </div>
-   <div class="flex justify-center items-center ">
-  <button class=" bg-green-dull text-beige font-bold py-3 px-5 rounded-full">
-    Nous contacter
-  </button>
-</div>
-
-  <div class="absolute top-107 right-0  ">
+  <div class="absolute top-2/4 right-0  ">
     <svg width="233" height="413" viewBox="0 0 233 413" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_1311_24053)">
 <path d="M72.5 145C112.541 145 145 112.541 145 72.5C145 32.4594 112.541 0 72.5 0C32.4594 0 0 32.4594 0 72.5C0 112.541 32.4594 145 72.5 145Z" fill="#FFD975"/>
@@ -101,11 +95,19 @@
 </svg>
 </div>
 
-<div class=" absolute left-0">
+<div class=" absolute top-120 left-0">
 <svg width="196" height="325" viewBox="0 0 196 325" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle opacity="0.4" cx="33.5" cy="162.5" r="162.5" fill="#FFD975"/>
 </svg>
 </div>
+
+   <div class="flex justify-center items-center mt-32 pb-32">
+  <button class=" bg-green-dull text-beige font-bold py-3 px-5 rounded-full">
+    Nous contacter
+  </button>
+</div>
+
+
 
 </template>
 

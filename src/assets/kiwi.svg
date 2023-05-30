@@ -1,65 +1,4 @@
-<script setup lang="ts">
-
-</script>
-
-<template>
-
-  <div class="grid grid-cols-7 gap-20">
-    <div class="col-span-2"> </div>
-    <div class="  col-span-4 ">
-      <h2 class=" font-europa-grotesk-sh text-green-dull "> Pour en savoir plus...</h2>
-      <h2 class=" font-europa-grotesk-sh text-green-mid"> Nos mentions légales</h2>
-      <p class=" text-green-dull mt-9"> Rue des Saveurs est le fruit d'un projet collectif au sein du département MMi
-        (Métiers du Multimédia et d'Internet) de l'IUT Nord Franche-Comté. </p>
-      <div class="grid grid-cols-3 gap-4 mt-8">
-        <div>
-          <h3 class="font-poppins font-bold text-green-dull ">Propriétaire</h3>
-          <p class=" text-green-mid mt-3 ">
-            SARL Rue des Saveurs <br>
-            4 Place Tharradin <br>
-            25200 Montbéliard <br>
-            France
-          </p>
-        </div>
-        <div>
-          <h3 class=" font-poppins font-bold text-green-dull">Hébergeur</h3>
-          <p class=" text-green-mid mt-3 ">
-            Infomaniak <br>
-            9 Rue de la Gabelle <br>
-            1227 Carouge (Genève) <br>
-            Suisse <br>
-          </p>
-        </div>
-      </div>
-
-      <div class="grid grid-cols-3 gap-4 mt-8">
-        <div>
-          <h3 class="font-poppins font-bold text-green-dull ">Intégration web</h3>
-          <p class=" text-green-mid mt-3 ">
-            Emilien Boucard
-            emil.boucard@gmail.com
-          </p>
-        </div>
-        <div>
-          <h3 class=" font-poppins font-bold text-green-dull">Hébergeur</h3>
-          <p class=" text-green-mid mt-3 ">
-            Zoe-Augustine Vicat
-            zoe.a.vicat@gmail.com
-          </p>
-        </div>
-        <div class="">
-          <h3 class=" font-poppins font-bold text-green-dull">Chargé de communication</h3>
-          <p class=" text-green-mid mt-3 ">
-            Noah Lafource
-            noahlafourcade1@gmail.com
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="relative">
-  <div class="absolute top-0 right-0 h-full w-16"></div>
-  <svg  width="199" height="341" >
+<svg width="199" height="341" viewBox="0 0 199 341" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M170.5 341C264.665 341 341 264.665 341 170.5C341 76.3354 264.665 0 170.5 0C76.3354 0 0 76.3354 0 170.5C0 264.665 76.3354 341 170.5 341Z" fill="#4C6C5E"/>
 <path d="M170.501 318.267C252.11 318.267 318.268 252.109 318.268 170.5C318.268 88.8908 252.11 22.7334 170.501 22.7334C88.8918 22.7334 22.7344 88.8908 22.7344 170.5C22.7344 252.109 88.8918 318.267 170.501 318.267Z" fill="#FFFAEF"/>
 <path d="M170.5 303.111C243.739 303.111 303.111 243.739 303.111 170.5C303.111 97.2609 243.739 37.8889 170.5 37.8889C97.2607 37.8889 37.8887 97.2609 37.8887 170.5C37.8887 243.739 97.2607 303.111 170.5 303.111Z" fill="#AFCAAB"/>
@@ -72,8 +11,3 @@
 <path d="M275.159 194.388C275.78 191.668 269.668 187.953 261.508 186.09C253.347 184.228 246.229 184.923 245.608 187.643C244.987 190.363 251.099 194.078 259.259 195.941C267.42 197.803 274.538 197.108 275.159 194.388Z" fill="#4C6C5E"/>
 <path d="M245.73 116.966C252.274 111.747 256.169 105.748 254.43 103.567C252.69 101.386 245.975 103.848 239.431 109.067C232.887 114.285 228.992 120.284 230.731 122.466C232.471 124.647 239.186 122.185 245.73 116.966Z" fill="#4C6C5E"/>
 </svg>
-
-</div>
-
-</template>
-

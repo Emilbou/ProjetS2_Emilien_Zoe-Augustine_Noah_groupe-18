@@ -13,9 +13,12 @@
     "typegen": "pocketbase-typegen --db ./pocketbase/pb_data/data.db --out ./src/pocketbase-types.ts"
   },
   "dependencies": {
+    "@types/googlemaps": "^3.43.3",
     "pocketbase": "^0.14.3",
     "vue": "^3.3.0-beta.5",
-    "vue-router": "^4.1.6"
+    "vue-router": "^4.1.6",
+    "vue3-geolocation": "^1.0.0",
+    "vue3-google-map": "^0.15.0"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",

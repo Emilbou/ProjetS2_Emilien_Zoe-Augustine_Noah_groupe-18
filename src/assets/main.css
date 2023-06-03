@@ -15,4 +15,13 @@
   h3 {
     @apply font-poppins text-xl leading-tight;
   }
+  p {
+    @apply font-poppins text-base;
+  }
+};
+
+@layer components {
+  .grille {
+    @apply grid-cols-principal grid justify-center gap-5;;
+  }
 }

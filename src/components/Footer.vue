@@ -3,26 +3,28 @@
 
 </script>
 <template>
-  <footer class="grille bg-green-light  bottom-0 left-0 right-0  ">
-    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 lg:pr-36 lg:pl-24">
+  <footer class="bg-green-light  bottom-0 left-0 right-0  ">
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 lg:pr-36 lg:pl-5">
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
-          <a href="https://flowbite.com/" class="flex items-center">
-            <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="FlowBite Logo" />
-            <span class="self-center text-2xl font-semibold whitespace-nowrap ">Flowbite</span>
+          <a href="https://flowbite.com/" class="flex items-start">
+            <img src="@/assets/Place_des_saveurs_logo.webp" class="h-36 " alt="FlowBite Logo" />
+            
           </a>
         </div>
         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-5">
           <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Accueil</h2>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Mentions légales</h2>
-            <a href="src/Apropos.vue"> <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">A propos</h2> </a>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Contact</h2>
+
+            <RouterLink to="/"> <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Accueil</h2> </RouterLink>
+            <RouterLink to="/LegalView"> <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Mentions légales</h2> </RouterLink>
+            <RouterLink to="/about"> <h2 class="mb-6 text-sm font-bold text-green-dull  uppercase ">A propos</h2> </RouterLink>
+            <RouterLink to="/Profilpage"> <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Contact</h2> </RouterLink>
+
             
           </div>
           <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Produits</h2>
-            <ul class="text-gray-600  font-medium">
+            <RouterLink to="/FicheProduit"> <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Produits</h2> </RouterLink>
+            <ul class="text-beige  font-medium">
               <li class="mb-4">
                 <a href="https://flowbite.com/" class="hover:underline">Fruits</a>
               </li>
@@ -44,8 +46,8 @@
             </ul>
           </div>
           <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Recettes</h2>
-            <ul class="text-gray-600  font-medium">
+            <RouterLink to="/Ficherecette"> <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Recettes</h2> </RouterLink>
+            <ul class="text-beige  font-medium">
               <li class="mb-4">
                 <a href="https://flowbite.com/" class="hover:underline">Entrées</a>
               </li>
@@ -65,20 +67,20 @@
             </ul>
           </div>
           <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Connexion</h2>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Panier</h2>
+            <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Connexion</h2>
+            <RouterLink to="/panier"> <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Panier</h2> </RouterLink> 
             
           </div>
           <div>
-           <ul class="text-gray-600  font-medium">
+           <ul class="text-green-dull  font-medium">
               <li class="mb-4">
-                <a href="#" class="hover:underline">4 Place Tharradin <br> 25200 Montbéliard</a>
+                <a href="#" class="hover:underline flex "><span><img src="@/assets/icones/icon-localisation.webp" alt=""></span> <span> 4 Place Tharradin <br> 25200 Montbéliard</span></a>
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:underline">03 81 99 47 34</a>
+                <a href="#" class="hover:underline flex"><span><img src="@/assets/icones/icon-phone.webp" alt=""></span><span> 03 81 99 47 34 </span></a>
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:underline">mmimontbeliard.com</a>
+                <a href="#" class="hover:underline flex"><span><img src="@/assets/icones/icon-web.webp" alt=""></span><span> mmimontbeliard.com</span></a>
               </li>
               
             </ul>

@@ -3,7 +3,9 @@ import App from './App.vue'
 import routes from '~pages'
 import { createRouter, createWebHistory } from 'vue-router'
 
-import './assets/main.css'
+
+import './main.css'
+import Vue3Geolocation from 'vue3-geolocation';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -13,3 +15,4 @@ const router = createRouter({
 const app = createApp(App)
 app.use(router)
 app.mount('#app')
+app.use(Vue3Geolocation);

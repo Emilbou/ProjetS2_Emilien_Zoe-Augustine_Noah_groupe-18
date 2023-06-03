@@ -1,93 +1,47 @@
 <script setup lang="ts">
 
-import { ref } from 'vue';
-
-
-
-const activeMenu = ref(false)
-
-function closeMenu() {
-    activeMenu.value = false
-}
 
 </script>
-
 <template>
-    <nav class="top-0 bg-beige w-full ">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="#" class="flex items-center">
-                <img src="src/assets/Place_des_saveurs_logo.webp" class="h-20" alt="Place_des_saveurs_Logo" />
-                <div class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></div>
-            </a>
-            <button data-collapse-toggle="navbar-solid-bg" type="button"
-                class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                aria-controls="navbar-solid-bg" aria-expanded="false">
-                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd"
-                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                        clip-rule="evenodd"></path>
-                </svg>
-            </button>
-            <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
-                <ul
-                    class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
-                    <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 font-bold text-green-mid rounded ">Produits</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 font-bold text-green-mid  rounded ">A propos</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 font-bold text-green-mid  rounded ">Recettes</a>
-                    </li>
-                </ul>
-
-        </div>
-    </div>
-
-</nav>
-
-<nav class="top-0 bg-beige w-full ">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="#" class="flex items-center">
-                <img src="src/assets/Place_des_saveurs_logo.webp" class="h-20" alt="Place_des_saveurs_Logo" />
-                <div class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></div>
-            </a>
-        </div>
-
-        <div class="flex items-center gap-4 lg:flex-row-reverse">
-            <button class="relative z-10 flex h-5 w-8 flex-col justify-between lg:hidden" @click="activeMenu = !activeMenu">
-                <div class="ease h-[2px] w-full transform rounded-full bg-black transition duration-300"
-                    :class="{ 'translate-y-[9px] rotate-45': activeMenu }">
+    <header>
+        <nav class="bg-beige border-gray-200 px-4 lg:px-6 py-2.5">
+            <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+                <a href="https://flowbite.com" class="flex items-center">
+                    <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
+                    <span class="self-center text-xl font-semibold whitespace-nowrap ">Flowbite</span>
+                </a>
+                <div class="flex items-center lg:order-2">
+                    <a href="#" class="text-gray-800  hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2  focus:outline-none ">Log in</a>
+                    <a href="#" class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2   focus:outline-none ">Get started</a>
+                    <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200   " aria-controls="mobile-menu-2" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                        <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </button>
                 </div>
-                <div class="ease h-[2px] w-full transform rounded-full bg-black transition duration-300"
-                    :class="{ 'bg-white opacity-0': activeMenu }">
+                <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+                    <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                        <li>
+                            <a href="#" class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 " aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  ">Company</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  ">Marketplace</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  ">Features</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  ">Team</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  ">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="ease h-[2px] w-full transform rounded-full bg-black transition duration-300"
-                    :class="{ '-translate-y-[9px] -rotate-45': activeMenu }">
-                </div>
-            </button>
-
-            <nav class="invisible opacity-0 fixed inset-0 h-screen w-screen bg-white text-xl text-black transition-all duration-300 ease-in-out lg:visible lg:relative lg:flex lg:h-auto lg:w-auto lg:items-center lg:bg-transparent lg:text-sm lg:font-bold lg:uppercase lg:tracking-wide lg:text-black lg:opacity-100"
-                :class="{ '!visible opacity-100': activeMenu }" v-scroll-lock="activeMenu">
-                   <ul
-                    class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
-                  
-                    <li class=" menu-item font-bold">
-                        <RouterLink class="block py-2 pl-3 pr-4 font-bold text-green-mid rounded" to="/billeterie" @click="closeMenu">Produits</RouterLink>
-                    </li>
-                    <li class="menu-item">
-                        <RouterLink class="menu-link block py-2 pl-3 pr-4 font-bold text-green-mid rounded" to="/gh" @click="closeMenu">A propos</RouterLink>
-                    </li>
-                    <li class="menu-item">
-                        <RouterLink class="menu-link block py-2 pl-3 pr-4 font-bold text-green-mid rounded" to="/billeterie" @click="closeMenu">Recettes </RouterLink>
-                    </li>
-                  
-                </ul>
-
-            </nav>
-        </div>
-
-    </nav>
+            </div>
+        </nav>
+    </header>
 </template>
- 

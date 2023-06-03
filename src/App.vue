@@ -1,15 +1,17 @@
 <script setup lang="ts">
 import TestComponent from './components/TestComponent.vue';
-import Footer from './components/Footer.vue';
-import Header from './components/Header.vue';
+import FooterLayout from './components/Footer.vue';
+import HeaderLayout from './components/header.vue';
 </script>
 
 <template>
-  <Header/>
+  <HeaderLayout />
   <p class="bg-yellow text-2xl font-poppins">test</p>
-  <div class="flex px-3">
-    <TestComponent class="mx-5 items-center content-center" />
-<RouterView/>
+  <Suspense>
+  <div class=" bg-beige">
+
+    <RouterView />
   </div>
-<Footer/>
+</Suspense>
+  <FooterLayout />
 </template>

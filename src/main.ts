@@ -4,7 +4,7 @@ import routes from '~pages'
 import { createRouter, createWebHistory } from 'vue-router'
 
 
-import './main.css'
+import '/src/main.css'
 import Vue3Geolocation from 'vue3-geolocation';
 
 const router = createRouter({

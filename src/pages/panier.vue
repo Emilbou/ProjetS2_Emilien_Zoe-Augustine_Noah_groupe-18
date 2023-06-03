@@ -13,26 +13,28 @@ import CardPanier from '@/components/CardPanier.vue';
 
             <h1 class="col-start-4 col-span-9 font-europa-grotesk-sh text-green-dull mt-3">Votre panier</h1>
 
-            
-            <div class=" p-5 col-start-3 col-span-4 bg-white ">
+
+            <div class=" p-5 col-start-3 col-span-5 bg-white ">
                 <div class="flex">
-                <img class=" pr-5 " src="src/assets/imgcard.webp" alt="">
-                <div>
-                    <div class="container flex justify-between ">
-                        <div class="flex items-end">
-                            <h3 class=" font-europa-grotesk-sh text-green-dull">Cerises</h3>
-                            <p class="font-poppins text-green-mid">X 20</p>
+                    <img class=" pr-5 " src="src/assets/imgcard.webp" alt="">
+                    <div>
+                        <div class="container flex justify-between ">
+                            <div class="flex items-end">
+                                <h3 class=" font-europa-grotesk-sh text-green-dull">Cerises</h3>
+                                <p class="font-poppins text-green-mid">X 20</p>
+                            </div>
+                            <img class=" items-end" src="src/assets/croix.svg" alt="">
                         </div>
-                        <img class=" items-end" src="src/assets/croix.svg" alt="">
+                        <br>
+                        <p class="font-poppins text-green-mid"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facere,</p>
+                        <p class="font-poppins text-green-mid"> X 20</p>
                     </div>
-                    <br>
-                    <p class="font-poppins text-green-mid"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,</p>
-                    <p class="font-poppins text-green-mid"> X 20</p>
                 </div>
-            </div>            
             </div>
-            <div>
-                <div class=" bg-white col-span-10 ">
+          
+            
+            <div class=" bg-white col-start-8 col-span-4 ">
                 <p>
                     En achetant sur Rue des Saveurs, vous vous engagez à respecter nos termes et conditions. Nous vous
                     incitons à
@@ -57,51 +59,54 @@ import CardPanier from '@/components/CardPanier.vue';
                     Je réserve mon panier
                 </button>
             </div>
-        </div>
 
-            
-            <div class=" max-h-50 p-5 col-start-3 col-span-4 bg-white ">
+            <div class=" max-h-50 p-5 col-start-3 col-span-5 bg-white ">
                 <div class="flex">
-                <img class=" pr-5 " src="src/assets/imgcard.webp" alt="">
-                <div>
-                    <div class="container flex justify-between ">
-                        <div class="flex items-end">
-                            <h3 class=" font-europa-grotesk-sh text-green-dull">Cerises</h3>
-                            <p class="font-poppins text-green-mid">X 20</p>
+                    <img class=" pr-5 " src="src/assets/imgcard.webp" alt="">
+                    <div>
+                        <div class="container flex justify-between ">
+                            <div class="flex items-end">
+                                <h3 class=" font-europa-grotesk-sh text-green-dull">Cerises</h3>
+                                <p class="font-poppins text-green-mid">X 20</p>
+                            </div>
+                            <img class=" items-end" src="src/assets/croix.svg" alt="">
                         </div>
-                        <img class=" items-end" src="src/assets/croix.svg" alt="">
+                        <br>
+                        <p class="font-poppins text-green-mid"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facere,</p>
+                        <p class="font-poppins text-green-mid"> X 20</p>
                     </div>
-                    <br>
-                    <p class="font-poppins text-green-mid"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,</p>
-                    <p class="font-poppins text-green-mid"> X 20</p>
                 </div>
-            </div>            
             </div>
-            
-            <div class=" max-h-50 p-5 col-start-3 col-span-4 bg-white ">
+
+            <div class=" max-h-50 p-5 col-start-3 col-span-5 bg-white ">
                 <div class="flex">
-                <img class=" pr-5 " src="src/assets/imgcard.webp" alt="">
-                <div>
-                    <div class="container flex justify-between ">
-                        <div class="flex items-end">
-                            <h3 class=" font-europa-grotesk-sh text-green-dull">Cerises</h3>
-                            <p class="font-poppins text-green-mid">X 20</p>
+                    <img class=" pr-5 " src="src/assets/imgcard.webp" alt="">
+                    <div>
+                        <div class="container flex justify-between ">
+                            <div class="flex items-end">
+                                <h3 class=" font-europa-grotesk-sh text-green-dull">Cerises</h3>
+                                <p class="font-poppins text-green-mid">X 20</p>
+                            </div>
+                            <img class=" items-end" src="src/assets/croix.svg" alt="">
                         </div>
-                        <img class=" items-end" src="src/assets/croix.svg" alt="">
+                        <br>
+                        <p class="font-poppins text-green-mid"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facere,</p>
+                        <p class="font-poppins text-green-mid"> X 20</p>
                     </div>
-                    <br>
-                    <p class="font-poppins text-green-mid"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,</p>
-                    <p class="font-poppins text-green-mid"> X 20</p>
                 </div>
-            </div>            
             </div>
-            
-            
-            
+
+            <div class="col-start-2 col-span-full bgye">
+                <h3 class=" font-poppins text-green-dull font-bold"> Commander à nouveau </h3>
+                <h3 class=" font-poppins text-green-dull font-bold"> Vous aimerez peut-être...</h3>
+                <h3 class=" font-poppins text-green-dull font-bold"> Ventes à proximité</h3>
+            </div>
+
+  
+        
 
 
-
-
-        </div>
-    </main>
-</template>
+    </div>
+</main></template>

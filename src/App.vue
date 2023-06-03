@@ -5,9 +5,9 @@ import HeaderLayout from './components/header.vue';
 
 <template>
   <HeaderLayout />
-  <p class="bg-yellow text-2xl font-poppins">test</p>
+ 
   <Suspense>
-  <div class=" bg-beige">
+  <div class="bg-beige">
 
     <RouterView />
   </div>

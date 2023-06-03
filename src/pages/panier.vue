@@ -1,8 +1,14 @@
 <script setup lang="ts">
 
+import CardPanier from '@/components/CardPanier.vue';
+
 </script>
 
 <template>
+
+ <CardPanier />
+
+
     <main>
 
         <img class="  " src="src/assets/herbes.webp" alt="">

@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import TestComponent from './components/TestComponent.vue';
 import FooterLayout from './components/Footer.vue';
 import HeaderLayout from './components/header.vue';
 </script>

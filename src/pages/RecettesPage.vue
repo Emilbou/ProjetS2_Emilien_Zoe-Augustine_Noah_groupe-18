@@ -1,12 +1,4 @@
-
-<template>
-    <div class="flex justify-center p-20">
-        <GoogleMap :api-key="apiKey" class="w-2/3 h-72 "   :center="{lat: lat, lng: lng}" :zoom="15"> 
-        <Marker :options="{position: {lat: lat, lng: lng}}"/> </GoogleMap>
-        <img class="w-1/3 aspect-w-1 aspect-h-1" src="https://picsum.photos/888/288" alt="">
-    </div>
-    </template>
-    <script >
+<script >
     
     import { GoogleMap, Marker} from 'vue3-google-map'
     
@@ -38,4 +30,12 @@
       }
     }
     </script>
+    
+<template>
+    <div class="flex justify-center p-20">
+        <GoogleMap :api-key="apiKey" class="w-2/3 h-72 "   :center="{lat: lat, lng: lng}" :zoom="15"> 
+        <Marker :options="{position: {lat: lat, lng: lng}}"/> </GoogleMap>
+        <img class="w-1/3 aspect-w-1 aspect-h-1" src="https://picsum.photos/888/288" alt="">
+    </div>
+    </template>
     

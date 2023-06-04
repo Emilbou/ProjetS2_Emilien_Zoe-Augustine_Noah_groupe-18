@@ -7,3 +7,9 @@ console.table(records) ;
 console.error(e) ;
 }
 
+export async function allAliments() {
+
+    return await pb.collection('aliment').getFullList<AlimentResponse>(0)
+  
+  }
+  

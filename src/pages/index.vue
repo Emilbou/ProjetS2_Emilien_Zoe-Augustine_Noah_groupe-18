@@ -1,7 +1,6 @@
 <script setup lang="ts">
 
 
-// a completer
 </script>
 
 <template>
@@ -58,5 +57,12 @@
   </div>
 </div>
 
-
+<div>
+  <ul class=" mt-4" v-for="aliment in alimentliste" :key="aliment.id">
+          <RouterLink :to="{ name: 'id', params: { id: aliment.id } }">
+            <CardProduit v-bind="{ ...aliment }" />
+          </RouterLink>
+        </ul>
+        <CardProduit v-for="(aliment, index) in alimentliste" :key="index" :aliment="aliment"></CardProduit>
+</div>
 </main></template>

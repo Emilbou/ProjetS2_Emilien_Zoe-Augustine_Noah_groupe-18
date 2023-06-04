@@ -1,11 +1,9 @@
-import PocketBase from 'pocketbase';
+import PocketBase from 'pocketbase' ;
+const pb = new PocketBase('http://127.0.0.1:8090') ;
 
-export const pb = new PocketBase('http://127.0.0.1:8090');
-
-export async function allMaisons() {
-    return await pb.collection('maison').getFullList({
-          sort: '-created',
-        });
+try { const records = await pb.collection('aliments').getFullList() ;
+console.table(records) ;
+} catch (e) {
+console.error(e) ;
 }
-
 

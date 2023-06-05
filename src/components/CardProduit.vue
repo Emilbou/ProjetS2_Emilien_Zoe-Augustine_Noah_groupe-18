@@ -2,6 +2,7 @@
 import { allAliments } from '@/backend';
 import type { AlimentsResponse } from '@/pocketbase-types';
 const OeuvreInfo = defineProps<AlimentsResponse>();
+console.log(OeuvreInfo)
 
 </script>
 <template>

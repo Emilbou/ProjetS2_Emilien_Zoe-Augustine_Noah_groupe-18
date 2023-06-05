@@ -1,5 +1,6 @@
 <script lang="ts">
 import { RouterLink } from 'vue-router';
+import CardProduit from '@/components/CardProduit.vue';
 </script>
 
 

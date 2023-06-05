@@ -50,32 +50,51 @@
             </div>
             <div class="col-start-2 col-end-12 gap-4 flex justify-between items-center">
                 <img class="col-span-2 w-full" src="@/assets/Rectangle 194.webp" alt="">
-                <img class="col-span-2 w-full" src="@/assets/Rectangle 194.webp" alt="">
-                <img class="col-span-2 w-full" src="@/assets/Rectangle 194.webp" alt="">
-                <img class="col-span-2 w-full" src="@/assets/Rectangle 194.webp" alt="">
-                <img class="col-span-2 w-full" src="@/assets/Rectangle 194.webp" alt="">
+                <img class="col-span-2 w-full" src="@/assets/Rectangle 195.webp" alt="">
+                <img class="col-span-2 w-full" src="@/assets/Rectangle 196.webp" alt="">
+                <img class="col-span-2 w-full" src="@/assets/Rectangle 197.webp" alt="">
+                <img class="col-span-2 w-full" src="@/assets/Rectangle 198.webp" alt="">
             </div>
             <div class="col-start-2 col-end-11 flex justify-start items-center mt-10">
-                <h3 class="text-xl font-bold text-green-dull">Autres produits de Melina Moreau</h3>
-                <button class="pl-6 text-green-mid text-xs font-normal">voir tous les produits</button>
+                <h3 class="text-xl font-bold text-green-dull">Recettes de Melina Moreau</h3>
+                <button class="pl-6 text-green-mid text-xs font-normal">voir toutes les recettes</button>
             </div>
             <div class="col-start-2 col-end-12 gap-4 flex justify-between items-center">
                 <img class="col-span-2 w-full" src="@/assets/Rectangle 194.webp" alt="">
-                <img class="col-span-2 w-full" src="@/assets/Rectangle 194.webp" alt="">
-                <img class="col-span-2 w-full" src="@/assets/Rectangle 194.webp" alt="">
-                <img class="col-span-2 w-full" src="@/assets/Rectangle 194.webp" alt="">
-                <img class="col-span-2 w-full" src="@/assets/Rectangle 194.webp" alt="">
+                <img class="col-span-2 w-full" src="@/assets/Rectangle 195.webp" alt="">
+                <img class="col-span-2 w-full" src="@/assets/Rectangle 196.webp" alt="">
+                <img class="col-span-2 w-full" src="@/assets/Rectangle 197.webp" alt="">
+                <img class="col-span-2 w-full" src="@/assets/Rectangle 198.webp" alt="">
             </div>
             <div class="col-start-2 col-end-11 flex justify-start items-center mt-10">
-                <h3 class="text-xl font-bold text-green-dull">Autres produits de Melina Moreau</h3>
-                <button class="pl-6 text-green-mid text-xs font-normal">voir tous les produits</button>
+                <h3 class="text-xl font-bold text-green-dull">Favoris de Melina Moreau</h3>
+                <button class="pl-6 text-green-mid text-xs font-normal">voir tous les favoris</button>
             </div>
             <div class="col-start-2 col-end-12 gap-4 flex justify-between items-center">
                 <img class="col-span-2 w-full" src="@/assets/Rectangle 194.webp" alt="">
-                <img class="col-span-2 w-full" src="@/assets/Rectangle 194.webp" alt="">
-                <img class="col-span-2 w-full" src="@/assets/Rectangle 194.webp" alt="">
-                <img class="col-span-2 w-full" src="@/assets/Rectangle 194.webp" alt="">
-                <img class="col-span-2 w-full" src="@/assets/Rectangle 194.webp" alt="">
+                <img class="col-span-2 w-full" src="@/assets/Rectangle 195.webp" alt="">
+                <img class="col-span-2 w-full" src="@/assets/Rectangle 196.webp" alt="">
+                <img class="col-span-2 w-full" src="@/assets/Rectangle 197.webp" alt="">
+                <img class="col-span-2 w-full" src="@/assets/Rectangle 198.webp" alt="">
+            </div>
+            <div class="col-start-3 col-span-8 flex flex-col">
+                <h2 class="font-bold text-green-dull
+                text-2xl">Commentaires</h2>
+                <div class="shadow-card-shadow my-10 p-5 flex"> <div> <img class="rounded-full aspect-square w-16 mx-5" src="@/assets/profile-photo.webp" alt=""></div>
+                <div class="flex flex-col ">
+
+                    <h3 class="font-bold text-xl text-green-dull">Melina Moreau</h3>
+                    <div class="flex flex-row">
+
+                        <img class="w-6" src="@/assets/icones/star-rating-full.svg" alt="">
+                        <img class="w-6" src="@/assets/icones/star-rating-full.svg" alt="">
+                        <img class="w-6" src="@/assets/icones/star-rating-full.svg" alt="">
+                        <img class="w-6" src="@/assets/icones/star-rating-full.svg" alt="">
+                        <img class="w-6" src="@/assets/icones/star-rating-full.svg" alt="">
+                    </div>
+                    <p class="font-normal text-green-dull text-base">Merci pour ces délicieux citrons. Je recommande !</p>
+                </div>
+            </div>
             </div>
         </div>
     </section>

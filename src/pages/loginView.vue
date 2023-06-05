@@ -66,10 +66,10 @@ po<template>
     <div class="flex min-h-full items-center justify-center px-4 py-12 sm:px-6 lg:px-8">
       <div class="w-full max-w-md space-y-8">
         <div v-if="currentUser">
-          <h1>Bienvenue {{ currentUser?.name }}</h1>
+          <h1 class=" font-europa-grotesk-sh text-green-mid mb-10">Bienvenue {{ currentUser?.name }}</h1>
           <div>
             <button type="button" @click="Logout"
-              class="rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600">DÃ©connexion</button>
+              class="bg-green-dull text-beige font-bold py-2 px-4 rounded-full">Déconnexion</button>
   
           </div>
         </div>
@@ -94,10 +94,10 @@ po<template>
           <div v-if="loginMode">
             <div class="sm:col-span-2 sm:col-start-1 mt-2">
               <button type="button" @click="Login"
-                class="mr-3 rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600">Se connecter</button>
+                class="bg-green-dull text-beige font-bold py-2 px-4 rounded-full">Se connecter</button>
   
               <button type="button" @click="loginMode = false"
-                class="rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600">S'inscrire</button>
+                class="bg-green-dull text-beige font-bold py-2 px-4 rounded-full ml-4">S'inscrire</button>
   
             </div>
           </div>
@@ -113,7 +113,7 @@ po<template>
             <div class="sm:col-span-2 sm:col-start-1 mt-2">
               <button type="button" @click="CreateAccount"
                 class="bg-green-dull text-beige font-bold py-2 px-4 rounded-full">Sauvegarder
-                Nouvel utilisateur</button>
+                </button>
   
               <button type="button" @click="loginMode = true"
                 class=" bg-red-600 text-beige font-bold py-2 px-4 rounded-full mt-5 lg:mt-0 lg:ml-5">Annuler

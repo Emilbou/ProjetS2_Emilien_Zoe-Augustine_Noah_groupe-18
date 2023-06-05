@@ -45,7 +45,7 @@
                 </div>
 
             </div>
-            <div class=" col-start-5 col-span-6">
+            <div class=" col-start-3 col-span-6">
                 <h1 class="font-europa-grotesk-sh text-green-dull text-4xl">Vous souhaitez nous contacter ?</h1>
                 <h1 class="font-europa-grotesk-sh text-green-mid text-4xl">Envoyez nous un mail !</h1>
 

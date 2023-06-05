@@ -53,7 +53,7 @@ Excellents pour faire de la limonade !</p>
 <p class="text-base font-normal text-green-mid">25200 Montbéliard</p>
       </div>
       <section class="flex flex-wrap justify-evenly p-2">
-<img class="aspect-square w-32 m-1" src="@/assets/image-citrons.webp" alt=""><img class="aspect-square w-32 m-1" src="@/assets/image-cerises.webp" alt=""><img class="aspect-square w-32 m-1" src="@/assets/image-painchocolat.webp" alt=""><img class="aspect-square w-32 m-1" src="@/assets/image-carottes.webp" alt=""><img class="aspect-square w-32 m-1" src="@/assets/image-pommes.webp" alt=""><img class="aspect-square w-32 m-1" src="@/assets/image-pain.webp" alt="">
+<img class="aspect-square w-24 m-1" src="@/assets/image-citrons.webp" alt=""><img class="aspect-square w-24 m-1" src="@/assets/image-cerises.webp" alt=""><img class="aspect-square w-24 m-1" src="@/assets/image-painchocolat.webp" alt=""><img class="aspect-square w-24 m-1" src="@/assets/image-carottes.webp" alt=""><img class="aspect-square w-24 m-1" src="@/assets/image-pommes.webp" alt=""><img class="aspect-square w-24 m-1" src="@/assets/image-pain.webp" alt="">
       </section>
       <div class="flex justify-center flex-col text-center m-auto">
       <p class="text-green-mid font-normal text-xs p-2">Voir tous les produits</p>

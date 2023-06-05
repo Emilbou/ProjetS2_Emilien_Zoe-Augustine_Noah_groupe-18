@@ -46,11 +46,11 @@
       </div>
     </div>
 
-    <div class="absolute top-2/4 right-0 w-20 ">
+    <div class="absolute top-2/4 right-0 hidden lg:visible">
       <img src="src/assets/feuille.svg" alt="">
     </div>
 
-    <div class=" absolute top-96 left-0 w-20">
+    <div class=" absolute top-96 left-0 lg:visible">
       <img src="src/assets/Ellipse 20.svg" alt="">
     </div>
   </main></template>

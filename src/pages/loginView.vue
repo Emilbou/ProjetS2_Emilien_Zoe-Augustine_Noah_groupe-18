@@ -76,7 +76,7 @@ po<template>
         <div v-else>
           <h1 class=" font-europa-grotesk-sh text-green-dull">{{ loginMode ? "Se connecter" : "S'inscrire" }}</h1>
           <div class="sm:col-span-2 sm:col-start-1 mt-4">
-            <label for="username" class="block text-sm font-medium leading-6 text-gray-900">Adresse mail</label>
+            <label for="username" class="block text-sm font-medium text-green-mid font-poppins">Adresse mail</label>
             <div class="mt-2">
               <input v-model="username" type="text" name="username" id="username" autocomplete="none"
                 placeholder="Entrer une adresse mail "
@@ -84,7 +84,7 @@ po<template>
             </div>
           </div>
           <div class="sm:col-span-2 sm:col-start-1 mt-2">
-            <label for="password" class="block text-sm font-medium leading-6 text-gray-900">Mot de passe</label>
+            <label for="password" class="block text-sm font-medium leading-6 text-green-mid font-poppins">Mot de passe</label>
             <div class="mt-2">
               <input v-model="password" type="password" name="password" id="password" autocomplete="none"
                 placeholder="Entrer votre mot de passe "
@@ -103,7 +103,7 @@ po<template>
           </div>
           <div v-else>
             <div class="sm:col-span-2 sm:col-start-1 mt-2">
-              <label for="fullName" class="block text-sm font-medium leading-6 text-gray-900">Nom</label>
+              <label for="fullName" class="block text-sm font-medium leading-6 text-green-mid font-poppins">Nom</label>
               <div class="mt-2">
                 <input v-model="fullName" type="text" name="fullName" id="fullName" autocomplete="none"
                   placeholder="Enter Full Name "

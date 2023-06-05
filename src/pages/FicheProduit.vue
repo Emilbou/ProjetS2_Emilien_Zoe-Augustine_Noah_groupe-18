@@ -37,7 +37,7 @@ import { RouterLink } from 'vue-router';
 Cueillis ce matin. 
 <br>
 Excellents pour faire de la limonade !</p>
-<div class="mt-10 flex justify-between text-center flex-wrap"> <span class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base ">testnoahgrossexe</span><span class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base">testnoahgrossexe</span><span class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base">testnoahgrossexe</span></div>
+<div class="mt-10 flex justify-between text-center flex-wrap"> <span class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base ">ptitebiteemilien</span><span class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base">ptitebiteemilien</span><span class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base">ptitebiteemilien</span></div>
 </section>
     </section>
 

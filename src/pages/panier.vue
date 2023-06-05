@@ -6,7 +6,6 @@ import CardPanier from '@/components/CardPanier.vue';
 
 <template>
     <main>
-
         <img class="  " src="src/assets/herbes.webp" alt="">
 
         <div class="grid grid-cols-12 gap-10">

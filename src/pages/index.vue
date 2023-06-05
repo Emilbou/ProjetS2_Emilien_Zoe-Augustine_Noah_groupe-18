@@ -53,13 +53,4 @@
     <div class=" absolute top-96 left-0">
       <img src="src/assets/Ellipse 20.svg" alt="">
     </div>
-
-    <div>
-      <ul class=" mt-4" v-for="aliment in alimentliste" :key="aliment.id">
-        <RouterLink :to="{ name: 'id', params: { id: aliment.id } }">
-          <CardProduit v-bind="{ ...aliment }" />
-        </RouterLink>
-      </ul>
-      <CardProduit v-for="(aliment, index) in alimentliste" :key="index" :aliment="aliment"></CardProduit>
-    </div>
   </main></template>

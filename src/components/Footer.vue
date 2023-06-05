@@ -80,7 +80,7 @@
                 <a href="#" class="hover:underline flex"><span><img src="@/assets/icones/icon-phone.webp" alt=""></span><span> 03 81 99 47 34 </span></a>
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:underline flex"><span><img src="@/assets/icones/icon-web.webp" alt=""></span><span> mmimontbeliard.com</span></a>
+                <a href="#" class="hover:underline flex"><span><img src="@/assets/icones/icon-web.webp" alt=""></span><span> .com</span></a>
               </li>
               
             </ul>

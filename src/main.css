@@ -25,3 +25,10 @@
     @apply grid-cols-principal grid justify-center gap-5;;
   }
 }
+
+
+@layer base {
+  body {
+    padding-top : ;
+  }
+}

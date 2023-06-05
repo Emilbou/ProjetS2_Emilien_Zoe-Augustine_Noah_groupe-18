@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import { allAliments } from '@/backend';
 import type { AlimentsResponse } from '@/pocketbase-types';
-const OeuvreInfo = defineProps<AlimentsResponse>();
-console.log(OeuvreInfo)
+const alimentinfo = defineProps<AlimentsResponse>();
+console.log(alimentinfo)
+
 
 </script>
 <template>

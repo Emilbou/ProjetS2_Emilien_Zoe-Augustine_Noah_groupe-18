@@ -6,7 +6,7 @@
 
         <div class="grid grid-cols-1 lg:grid-cols-12 lg:gap-10 grid-rows-4">
 
-            <h1 class="lg:col-start-4 col-span-9 font-europa-grotesk-sh text-green-dull mt-3">Votre panier</h1>
+            <h1 class="lg:col-start-4 col-span-9 font-europa-grotesk-sh text-green-dull mt-10 ">Votre panier</h1>
 
             <div class="p-5 bg-white lg:col-start-8 lg:col-span-4 lg:row-span-3 shadow-card-shadow">
                 <p>
@@ -36,7 +36,7 @@
                 </div>
             </div>
 
-            <div class="p-5 col-start-3 col-span-5 bg-white h-44 shadow-card-shadow lg:row-start-2">
+            <div class="p-5 col-start-3 col-span-5 bg-white h-44 shadow-card-shadow lg:row-start-2 ">
                 <div class="flex">
                     <img class="pr-5 h-32" src="src/assets/imgcard.webp" alt="">
                     <div>
@@ -89,9 +89,10 @@
                         <p class="font-poppins text-green-mid">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Facere,</p>
                         <p class="font-poppins text-green-mid">X 20</p>
+        
                     </div>
                 </div>
             </div>
-        </div>
+        </div>     <div class=" pb-52 "></div>
     </main>
 </template>

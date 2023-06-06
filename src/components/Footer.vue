@@ -7,10 +7,10 @@
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 lg:pr-36 lg:pl-5">
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
-          <a href="https://flowbite.com/" class="flex items-start">
+          <RouterLink to="/" class="flex items-start">
             <img src="@/assets/Place_des_saveurs_logo.webp" class="h-36 " alt="FlowBite Logo" />
             <p></p>
-          </a>
+          </RouterLink>
         </div>
         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-5">
           <div>

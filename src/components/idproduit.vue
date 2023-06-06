@@ -48,11 +48,11 @@ function getPicture(image: ProduitResponse) {
                             src="@/assets/icones/icon-link.svg" alt="">
                     </div>
                 </div>
-                <p class="text-green-dull text-xs font-normal mt-8">Citrons jaunes de mon jardin.
-                    <br>
-                    Cueillis ce matin.
-                    <br>
-                    Excellents pour faire de la limonade !
+                <p class="text-green-dull text-xs font-normal mt-8">
+                    {{ description_produit }}
+                </p>
+                <p class="text-green-dull text-xs font-normal mt-8">
+                    {{ prix_produit }}
                 </p>
                 <div class="mt-10 flex justify-between text-center flex-wrap"> <span
                         class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base ">ptitebiteemilien</span><span

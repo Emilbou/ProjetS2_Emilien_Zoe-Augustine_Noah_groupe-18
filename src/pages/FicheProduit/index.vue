@@ -7,7 +7,7 @@ console.log(produitliste)
 
 
 <template>
-  <section class="flex w-full justify-center px-32">
+  <section class="flex w-full justify-center px-24">
     <section class="grille grid grid-cols-12 gap-4 ">
       <div class="col-span-12 flex flex-wrap gap-4 ">
 

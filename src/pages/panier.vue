@@ -8,9 +8,9 @@ import CardPanier from '@/components/CardPanier.vue';
     <main>
         <img class="  " src="src/assets/herbes.webp" alt="">
 
-        <div class="grid grid-cols-12 gap-10">
+        <div class="grid grid-cols-1 lg:grid-cols-12 lg:gap-10">
 
-            <h1 class="col-start-4 col-span-9 font-europa-grotesk-sh text-green-dull mt-3">Votre panier</h1>
+            <h1 class="lg:col-start-4 col-span-9 font-europa-grotesk-sh text-green-dull mt-3">Votre panier</h1>
 
             <div class="p-5 bg-white col-start-8 col-span-4 shadow-card-shadow">
                 <p>

@@ -9,3 +9,10 @@ export async function allAliments() {
 export async function allProduit() {
   return await pb.collection('produit').getFullList<ProduitResponse>();
 }
+
+
+export async function getIDproduit(id:string) {
+  
+  const records = await pb.collection('produit').getOne<ProduitResponse>(id)
+  return records;
+}

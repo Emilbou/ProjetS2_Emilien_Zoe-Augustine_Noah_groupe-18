@@ -14,7 +14,7 @@ console.log(produitliste)
         <ul class=" mt-4" v-for="produits of produitliste" :key="produits.id">
           <RouterLink
            :to="{ 
-            name: 'id',
+            name: 'FicheProduit-id',
              params: { id: produits.id } }">
             <CardProduit class=" col-span-2" v-bind="{ ...produits }" />
           </RouterLink>

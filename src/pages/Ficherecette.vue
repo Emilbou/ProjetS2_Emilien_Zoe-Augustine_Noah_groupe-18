@@ -5,7 +5,6 @@ const produitliste = await allProduit();
 console.log(produitliste)
 </script>
 
-
 <template>
   <section class="flex w-full justify-center px-32">
     <section class="grille grid grid-cols-12 gap-4 ">

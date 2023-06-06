@@ -7,7 +7,7 @@
                 <h1 class="font-europa-grotesk-sh text-green-dull text-4xl">A propos de Rue des Saveurs</h1>
                 <h1 class="font-europa-grotesk-sh text-green-mid text-4xl">Qui sommes nous ?</h1>
 
-                <div class="flex justify-between gap-10 mt-10 mb-10">
+                <div class="flex justify-between flex-col lg:flex-row gap-10 mt-10 mb-10">
                     <div class="bg-green-light"><img class="lg:max-w-xs items-center content-center"
                             src="@/assets/avatar-1.webp" alt="">
                         <h3 class="text-center font-bold"><span class="text-green-dull text-xl">Emilien Boucard</span>
@@ -57,40 +57,42 @@
 
 
         </div>
-        <div class="flex w-full">
-  <section class="image-section flex items-center justify-center w-1/2">
-    <img src="@/assets/formulairecontact.webp" alt="">
+        <div class="flex w-2/3 justify-center lg:flex-row flex-col m-auto">
+  <section class="image-section flex mb-10 items-center justify-center w-full lg:w-1/2 h-[610px] bg-cover">
+<div class=" bg-beige/50 flex flex-col items-center justify-center  w-5/6 h-5/6">
+<h2 class="font-bold text-2xl text-green-dull">Nous trouver</h2>
+<div class="flex flex-col justify-start py-4">
+<span class="flex items-center"><img class="px-5 py-4" src="@/assets/icones/icon-localisation.webp" alt=""><p class="font-bold text-base text-green-dull">4 place Tharradin <br> 25200 Montbéliard</p></span>
+<span class="flex items-center"><img class="px-5 py-4" src="@/assets/icones/icon-phone.webp" alt=""><p class="font-bold text-base text-green-dull">03 81 99 47 34</p></span>
+<span class="flex items-center"><img class="px-5 py-4" src="@/assets/icones/icon-at.svg" alt=""><p class="font-bold text-base text-green-dull">but-mmi-montbeliard@univ-fcomte.fr</p></span>
+<span class="flex items-center"><img class="px-5 py-4" src="@/assets/icones/icon-web.webp" alt=""><p class="font-bold text-base text-green-dull">mmimontbeliard.com</p></span>
+  </div>
+</div>
   </section>
 
-  <form action="" method="post" class="bg-green-dull flex flex-col w-1/2 form-section items-center justify-center">
-    <div>
-      <h2 class="font-bold text-beige text-center">Vous avez une question ?</h2>
-      <section class="flex content-center items-center text-center">
-        <div class="flex content-center items-center text-center m-auto">
-          <div class=" p-5">
-            <label class="bg-beige stroke-none rounded-full" for="nom"></label>
-            <input class="bg-beige stroke-none rounded-full p-2" type="text" id="nom" name="nom" placeholder="Nom" required>
-          </div>
-          <div>
-            <label class="bg-beige stroke-none rounded-full" for="Prénom"></label>
-            <input class="bg-beige stroke-none rounded-full p-2" type="text" id="Prénom" name="Prénom" placeholder="Prénom" required>
-          </div>
-        </div>
-      </section>
-      <div>
-        <label class="bg-beige stroke-none rounded-full" for="email"></label>
-        <input class="bg-beige stroke-none rounded-full p-2" type="text" id="email" name="email" placeholder="Adresse mail" required>
-      </div>
-      <div>
-        <label class="bg-beige stroke-none rounded-full" for="Message"></label>
-        <input class="bg-beige stroke-none rounded-full p-2" type="text" id="Message" name="Message" placeholder="Message" required>
-      </div>
-      <div>
-        <button type="submit">Envoyer</button>
-      </div>
+  <form action="" method="post" class="bg-green-dull flex   flex-col lg:w-1/2 h-[610px] w-full form-section items-center justify-center">
+    <div class="flex flex-col items-center justify-center  w-5/6 h-5/6"><h2 class="font-bold text-2xl text-beige mb-5">Vous avez une question ?</h2>
+    <div class="flex flex-row gap-2">
+      <input type="text" placeholder="Nom" class="pl-2  rounded-full p-1 bg-beige w-1/2 text-green-dull mb-6">
+      <input type="text" placeholder="Prénom" class="pl-2 rounded-full p-1 bg-beige w-1/2 text-green-dull mb-6">
+    
+    
+    </div>
+  <input type="text" placeholder="Adresse mail" class="mb-6 pl-2 rounded-full p-1 bg-beige w-full text-green-dull"/>
+  <input type="text" placeholder="Message" class="mb-6 pl-2 rounded-full p-1 bg-beige w-full text-green-dull"/>
+  <button class="mb-6 pl-2 rounded-full p-1 bg-beige text-green-dull font-bold text-center px-3 ">Envoyer</button>
     </div>
   </form>
 </div>
 
    
 </main></template>
+
+<style>
+.bg-cover {
+  background-size: cover;
+  background-image: url(@/assets/formulairecontact.webp);
+  background-position: center;
+}
+
+</style>

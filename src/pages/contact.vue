@@ -57,40 +57,18 @@
 
 
         </div>
-        <div class="flex w-full">
+        <div class="flex w-2/3 justify-center m-auto">
   <section class="image-section flex items-center justify-center w-1/2">
     <img src="@/assets/formulairecontact.webp" alt="">
   </section>
 
   <form action="" method="post" class="bg-green-dull flex flex-col w-1/2 form-section items-center justify-center">
-    <div>
-      <h2 class="font-bold text-beige text-center">Vous avez une question ?</h2>
-      <section class="flex content-center items-center text-center">
-        <div class="flex content-center items-center text-center m-auto">
-          <div class=" p-5">
-            <label class="bg-beige stroke-none rounded-full" for="nom"></label>
-            <input class="bg-beige stroke-none rounded-full p-2" type="text" id="nom" name="nom" placeholder="Nom" required>
-          </div>
-          <div>
-            <label class="bg-beige stroke-none rounded-full" for="Prénom"></label>
-            <input class="bg-beige stroke-none rounded-full p-2" type="text" id="Prénom" name="Prénom" placeholder="Prénom" required>
-          </div>
-        </div>
-      </section>
-      <div>
-        <label class="bg-beige stroke-none rounded-full" for="email"></label>
-        <input class="bg-beige stroke-none rounded-full p-2" type="text" id="email" name="email" placeholder="Adresse mail" required>
-      </div>
-      <div>
-        <label class="bg-beige stroke-none rounded-full" for="Message"></label>
-        <input class="bg-beige stroke-none rounded-full p-2" type="text" id="Message" name="Message" placeholder="Message" required>
-      </div>
-      <div>
-        <button type="submit">Envoyer</button>
-      </div>
-    </div>
+    
   </form>
 </div>
 
    
 </main></template>
+
+<style>
+</style>

@@ -1,18 +1,14 @@
-<script setup lang="ts">
-
-import CardPanier from '@/components/CardPanier.vue';
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
     <main>
         <img class="  " src="src/assets/herbes.webp" alt="">
 
-        <div class="grid grid-cols-1 lg:grid-cols-12 lg:gap-10">
+        <div class="grid grid-cols-1 lg:grid-cols-12 lg:gap-10 items-stretch">
 
             <h1 class="lg:col-start-4 col-span-9 font-europa-grotesk-sh text-green-dull mt-3">Votre panier</h1>
 
-            <div class="p-5 bg-white col-start-8 col-span-4 shadow-card-shadow">
+            <div class="p-5 bg-white col-start-8 columns-1 col-span-4 shadow-card-shadow">
                 <p>
                     En achetant sur Rue des Saveurs, vous vous engagez à respecter nos termes et conditions. Nous vous
                     incitons à contacter le vendeur dans le cas où vous ne pourriez pas récupérer votre commande.
@@ -39,7 +35,8 @@ import CardPanier from '@/components/CardPanier.vue';
                     </button>
                 </div>
             </div>
-            <div class=" p-5 col-start-3 col-span-5 bg-white h-44 shadow-card-shadow ">
+
+            <div class="p-5 col-start-3 columns-1 grid-cols-1 col-span-5 bg-white shadow-card-shadow">
                 <div class="flex">
                     <img class=" pr-5 h-32 " src="src/assets/imgcard.webp" alt="">
                     <div>
@@ -56,9 +53,9 @@ import CardPanier from '@/components/CardPanier.vue';
                         <p class="font-poppins text-green-mid"> X 20</p>
                     </div>
                 </div>
-
             </div>
-            <div class=" p-5 col-start-3 col-span-5 bg-white h-44 shadow-card-shadow ">
+
+            <div class=" p-5 col-start-3 col-span-5 bg-white shadow-card-shadow ">
                 <div class="flex">
                     <img class=" pr-5 h-32 " src="src/assets/imgcard.webp" alt="">
                     <div>
@@ -75,9 +72,9 @@ import CardPanier from '@/components/CardPanier.vue';
                         <p class="font-poppins text-green-mid"> X 20</p>
                     </div>
                 </div>
-
             </div>
-            <div class=" p-5 col-start-3 col-span-5 bg-white h-44 shadow-card-shadow ">
+
+            <div class=" p-5 col-start-3 col-span-5 bg-white shadow-card-shadow ">
                 <div class="flex">
                     <img class=" pr-5 h-32 " src="src/assets/imgcard.webp" alt="">
                     <div>
@@ -94,16 +91,13 @@ import CardPanier from '@/components/CardPanier.vue';
                         <p class="font-poppins text-green-mid"> X 20</p>
                     </div>
                 </div>
-
             </div>
-
-
-            
 
             <div class="col-start-2 col-span-full bgye">
                 <h3 class=" font-poppins text-green-dull font-bold"> Commander à nouveau </h3>
                 <h3 class=" font-poppins text-green-dull font-bold"> Vous aimerez peut-être...</h3>
                 <h3 class=" font-poppins text-green-dull font-bold"> Ventes à proximité</h3>
             </div>
-    </div>
-</main></template>
+        </div>
+    </main>
+</template>

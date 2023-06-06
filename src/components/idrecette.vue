@@ -21,11 +21,10 @@ return image.image_recette ? pb.getFileUrl(recetteinfo, image.image_recette, { t
     <section class="grid grid-cols-12 gap-4 ">
         <div class=" col-start-3 flex items-center flex-row ">
         <h1 class=" font-europa-grotesk-sh text-green-dull font-medium text-4xl"> {{ titre_recette }}</h1>
-        <span><img src="@/assets/icones/heart-default.svg" alt=""></span>
-        <span><img src="@/assets/icones/icon-scart.svg" alt=""></span>
+        <span><img src="@/assets/icones/icon-hearth.svg" alt=""></span>
     </div>
 
-        <section class="col-start-3 col-end-9 shadow-card-shadow flex flex-col w-full  ">
+        <section class="col-start-3 col-end-9 shadow-card-shadow flex flex-col w-full bg-white  ">
             <div class="bg-image-cover-produit w-full h-96" :style="{ backgroundImage: `url(${backgroundImage})` }">
             </div>
             <section class="p-6">
@@ -66,15 +65,10 @@ return image.image_recette ? pb.getFileUrl(recetteinfo, image.image_recette, { t
                 <p class="text-green-dull text-xs font-normal ">
                     {{ temps_recette }}
                 </p>
-                <div class="mt-10 flex justify-between text-center flex-wrap"> <span
-                        class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base ">oui</span><span
-                        class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base">oui</span><span
-                        class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base">oui</span>
-                </div>
             </section>
         </section>
 
-        <section class="col-start-9 col-end-11 shadow-card-shadow">
+        <section class="col-start-9 col-end-11 shadow-card-shadow bg-white h-5/6">
             <div class="w-full bg-image-cover-banniere h-24"></div>
             <div class="flex justify-center text-center ">
                 <img class="rounded-full aspect-square w-28 -my-12 " src="@/assets/profile-photo.webp" alt="">
@@ -103,7 +97,7 @@ return image.image_recette ? pb.getFileUrl(recetteinfo, image.image_recette, { t
     <section class="flex w-full justify-center px-24">
     <section class="grille grid grid-cols-12 gap-4 ">
       <div class=" col-start-1 col-span-2">
-        <h3 class="text-green-dull mt-9 font-bold">Toutes les recettes</h3>
+        <h3 class="text-green-dull mt-9 font-bold">Vous aimerez peut-être...</h3>
       </div>
       <div class="col-span-12 flex flex-wrap gap-4 ">
 
@@ -113,13 +107,15 @@ return image.image_recette ? pb.getFileUrl(recetteinfo, image.image_recette, { t
               name: 'FicheRecette-id',
               params: { id: recettes.id }
             }">
-            <Cardrecette class=" col-span-2" v-bind="{ ...recettes }" />
+            <Cardrecette class=" col-span-2 mb-10" v-bind="{ ...recettes }" />
           </RouterLink>
         </ul>
       </div>
     </section>
-
+    
   </section>
+ 
+
 
 </template>
   

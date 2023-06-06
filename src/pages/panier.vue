@@ -92,12 +92,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col-start-2 col-span-full bgye">
-                <h3 class="font-poppins text-green-dull font-bold">Commander à nouveau</h3>
-                <h3 class="font-poppins text-green-dull font-bold">Vous aimerez peut-être...</h3>
-                <h3 class="font-poppins text-green-dull font-bold">Ventes à proximité</h3>
-            </div>
         </div>
     </main>
 </template>

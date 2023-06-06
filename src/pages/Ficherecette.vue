@@ -2,6 +2,7 @@
 import { allAliments } from '@/backend';
 import CardProduit from '@/components/CardProduit.vue';
 const alimentliste = await allAliments();
+console.log(alimentliste)
 </script>
 
 

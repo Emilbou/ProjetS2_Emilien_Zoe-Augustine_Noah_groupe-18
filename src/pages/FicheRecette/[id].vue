@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import idproduit from '@/components/idproduit.vue';
-import { getIDproduit } from '@/backend';
+import idrecette from '@/components/idrecette.vue';
+import { getIDrecette } from '@/backend';
 const props = defineProps<{ id: string }>();
-const produits = await getIDproduit(props.id);
+const produits = await getIDrecette(props.id);
 
 
 </script>
@@ -10,8 +10,8 @@ const produits = await getIDproduit(props.id);
 
 
 <template>
-  <idproduit v-bind="{...produits}">
+  <idrecette v-bind="{...produits}">
 
-  </idproduit>
+  </idrecette>
   </template>
   

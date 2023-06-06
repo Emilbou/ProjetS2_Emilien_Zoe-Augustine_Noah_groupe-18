@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { allProduit } from '@/backend';
-import CardProduit from '@/components/CardProduit.vue';
-const produitliste = await allProduit();
-console.log(produitliste)
+import { allRecette } from '@/backend';
+import Cardrecette from '@/components/Cardrecette.vue';
+const recetteliste = await allRecette();
+console.log(recetteliste)
 </script>
 
 
@@ -11,12 +11,12 @@ console.log(produitliste)
     <section class="grille grid grid-cols-12 gap-4 ">
       <div class="col-span-12 flex flex-wrap gap-4 ">
 
-        <ul class=" mt-4" v-for="produits of produitliste" :key="produits.id">
+        <ul class=" mt-4" v-for="recettes of recetteliste" :key="recettes.id">
           <RouterLink
            :to="{ 
             name: 'FicheProduit-id',
-             params: { id: produits.id } }">
-            <CardProduit class=" col-span-2" v-bind="{ ...produits }" />
+             params: { id: recettes.id } }">
+            <Cardrecette class=" col-span-2" v-bind="{ ...recettes }" />
           </RouterLink>
         </ul>
       </div>

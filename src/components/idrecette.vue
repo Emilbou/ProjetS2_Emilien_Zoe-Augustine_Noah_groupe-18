@@ -1,12 +1,16 @@
 <script setup lang="ts">
-import { getIDrecette } from '@/backend';
+import { allRecette } from '@/backend';
 import {pb} from '@/backend'
 import type { RecetteResponse } from '@/pocketbase-types';
+import Cardrecette from '@/components/Cardrecette.vue';
+const recetteliste = await allRecette();
 const recetteinfo: RecetteResponse = defineProps<RecetteResponse>()
 const backgroundImage = getPicture(recetteinfo)
 function getPicture(image: RecetteResponse) {
 return image.image_recette ? pb.getFileUrl(recetteinfo, image.image_recette, { thumb: '10x100' }) : '/image-not-fond.png'
 }
+
+
 
 </script>
 
@@ -52,7 +56,14 @@ return image.image_recette ? pb.getFileUrl(recetteinfo, image.image_recette, { t
                 <p class="text-green-dull text-xs font-normal mt-8">
                     {{ description_recette }}
                 </p>
-                <p class="text-green-dull text-xs font-normal mt-8">
+                <p class="text-green-dull text-xs font-normal mt-8"> Ingrédients : </p>
+                <p class="text-green-dull text-xs font-normal ">
+                    {{ ingredient_recette }}
+                </p>
+                <p class="text-green-dull text-xs font-normal mt-8"> Etapes préparation :</p>
+                <p class="text-green-dull text-xs font-normal "> {{ etapes_preparation }} </p>
+                <p class="text-green-dull text-xs font-normal mt-8"> Temps préparation:</p>
+                <p class="text-green-dull text-xs font-normal ">
                     {{ temps_recette }}
                 </p>
                 <div class="mt-10 flex justify-between text-center flex-wrap"> <span
@@ -89,8 +100,36 @@ return image.image_recette ? pb.getFileUrl(recetteinfo, image.image_recette, { t
             </div>
         </section>
     </section>
+    <section class="flex w-full justify-center px-24">
+    <section class="grille grid grid-cols-12 gap-4 ">
+      <div class=" col-start-1 col-span-2">
+        <h3 class="text-green-dull mt-9 font-bold">Toutes les recettes</h3>
+      </div>
+      <div class="col-span-12 flex flex-wrap gap-4 ">
+
+
+        <ul class=" mt-4" v-for="recettes of recetteliste" :key="recettes.id">
+          <RouterLink :to="{
+              name: 'FicheRecette-id',
+              params: { id: recettes.id }
+            }">
+            <Cardrecette class=" col-span-2" v-bind="{ ...recettes }" />
+          </RouterLink>
+        </ul>
+      </div>
+    </section>
+
+  </section>
+
 </template>
   
+
+
+
+
+
+
+
 <style>
 .bg-image-cover-produit {
     margin-top: 0;

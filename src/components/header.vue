@@ -45,7 +45,7 @@ function closeMenu() {
                             <RouterLink class="menu-link" to="/FicheProduit" @click="closeMenu">Produits</RouterLink>
                         </li>
                         <li class="menu-item">
-                            <RouterLink class="menu-link" to="/Fichesrecettes" @click="closeMenu">Recettes</RouterLink>
+                            <RouterLink class="menu-link" to="/FicheRecette" @click="closeMenu">Recettes</RouterLink>
                         </li>
                         <li class="menu-item">
                             <RouterLink class="menu-link" to="/contact" @click="closeMenu">A propos</RouterLink>

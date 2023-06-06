@@ -11,7 +11,7 @@
   <main class="">
     <img class=" col-span-12" src="src/assets/banner.webp" alt="">
     <div class="grid lg:grid-cols-12 gap-10">
-      <img class="col-start-5 col-span-4 -mt-28" src="src/assets/bienvenue.svg" alt="">
+      <img class="col-start-5 col-span-4 -mt-28  lg:visible" src="src/assets/bienvenue.svg" alt="">
 
 
       <section class=" shadow-card-shadow bg-white lg:col-start-5 lg:col-span-4 ">

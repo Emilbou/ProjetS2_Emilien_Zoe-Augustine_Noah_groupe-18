@@ -42,7 +42,7 @@ getLocation()
       <RouterLink to="FicheRecette" class="lg:w-1/3 w-full aspect-w-1 aspect-h-1">
         <div class="relative h-full">
           <img class="w-full h-full object-cover" src="@/assets/image-limonade.webp" alt="">
-          <p class="absolute top-0 left-0 m-2  text-white font-poppins font-medium  text-4xl">Limonade maison</p>
+          <p class="absolute top-0 left-0 m-2  text-white font-poppins font-medium  lg:text-4xl text-2xl">Limonade maison</p>
         </div>
       </RouterLink>
       <GoogleMap :api-key="apiKey" class=" lg:w-2/3 w-full h-72" :center="{ lat: lat, lng: lng }" :zoom="15"> 
@@ -54,19 +54,19 @@ getLocation()
     <RouterLink to="FicheProduit" class="lg:w-2/3 w-full">
       <div class="relative h-full">
         <img class="w-full h-full object-cover" src="@/assets/Rectangle 172.webp" alt="">
-        <p class="absolute top-0 left-0 ml-2 text-white font-poppins font-medium  text-4xl">Produits de saison</p>
+        <p class="absolute top-0 left-0 ml-2 text-white font-poppins font-medium  lg:text-4xl text-2xl">Produits de saison</p>
       </div>
     </RouterLink>
     <RouterLink to="FicheProduit" class="lg:w-1/4 w-full">
       <div class="relative h-full">
         <img class="w-full h-full object-cover" src="@/assets/Rectangle 169.webp" alt="">
-        <p class="absolute top-0 left-0 ml-2 text-white font-poppins font-medium  text-4xl">Fruits</p>
+        <p class="absolute top-0 left-0 ml-2 text-white font-poppins font-medium  lg:text-4xl text-2xl">Fruits</p>
       </div>
     </RouterLink>
     <RouterLink to="FicheProduit" class="lg:w-1/4 w-full">
       <div class="relative h-full">
         <img class="w-full h-full object-cover" src="@/assets/Rectangle 171.webp" alt="">
-        <p class="absolute top-0 left-0 ml-2 text-white font-poppins font-medium  text-4xl">Légumes</p>
+        <p class="absolute top-0 left-0 ml-2 text-white font-poppins font-medium  lg:text-4xl text-2xl">Légumes</p>
       </div>
     </RouterLink>
   </div>

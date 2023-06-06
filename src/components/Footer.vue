@@ -8,7 +8,7 @@
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
           <RouterLink to="/" class="flex items-start">
-            <img src="@/assets/Place_des_saveurs_logo.webp" class="h-36 " alt="FlowBite Logo" />
+            <img src="@/assets/logo-default.png" class="h-36 " alt="FlowBite Logo" />
             <p></p>
           </RouterLink>
         </div>

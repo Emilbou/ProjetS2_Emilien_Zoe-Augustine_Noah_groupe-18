@@ -1,8 +1,10 @@
 <script setup lang="ts">
-import { getIDproduit } from '@/backend';
 import {pb} from '@/backend'
+import CardProduit from '@/components/CardProduit.vue';
 import type { ProduitResponse } from '@/pocketbase-types';
+import { allProduit } from '@/backend';
 const Produitinfo: ProduitResponse = defineProps<ProduitResponse>()
+const produitliste = await allProduit();
 const backgroundImage = getPicture(Produitinfo)
 function getPicture(image: ProduitResponse) {
     return image.image_produit ? pb.getFileUrl(Produitinfo, image.image_produit, { thumb: '10x100' }) : '/image-not-fond.png'
@@ -80,12 +82,29 @@ function getPicture(image: ProduitResponse) {
             </section>
             <div class="flex justify-center flex-col text-center m-auto">
                 <p class="text-green-mid font-normal text-xs p-2">Voir tous les produits</p>
-                <RouterLink
-                    class="text-beige font-normal m-auto w-fit text-xs mb-5 px-3 py-[0.5px] bg-green-dull rounded-full"
-                    to="Profilpage"> Voir le profil</RouterLink>
+                <RouterLink class="text-beige font-normal m-auto w-fit text-xs mb-5 px-3 py-[0.5px] bg-green-dull rounded-full"
+                    to="/Profilpage"> Voir le profil</RouterLink>
             </div>
         </section>
     </section>
+
+    <section class="flex w-full justify-center px-24">
+        <section class="grille grid grid-cols-12 gap-4 ">
+            <div class="col-span-12 flex flex-wrap gap-4 ">
+
+                <ul class=" mt-4" v-for="produits of produitliste" :key="produits.id">
+                    <RouterLink :to="{
+                            name: 'FicheProduit-id',
+                            params: { id: produits.id }
+                        }">
+                        <CardProduit class=" col-span-2" v-bind="{ ...produits }" />
+                    </RouterLink>
+                </ul>
+            </div>
+        </section>
+
+    </section>
+
 </template>
   
 <style>

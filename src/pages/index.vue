@@ -11,7 +11,7 @@
   <main class="">
     <img class=" col-span-12" src="src/assets/banner.webp" alt="">
     <div class="lg:grid lg:grid-cols-12 gap-10">
-      <img class=" h-40 sm:h-40 sm:-mt-14 lg:col-start-5 lg:col-span-4 -mt-28 place-self-center justify-center" src="src/assets/bienvenue.svg" alt="">
+      <img class=" w-3/5 lg:w-full -mt-14 lg:col-start-5 lg:col-span-4  place-self-center justify-center mx-auto" src="src/assets/bienvenue.svg" alt="">
 
 
       <section class=" m-5  shadow-card-shadow bg-white lg:col-start-5 lg:col-span-4 ">

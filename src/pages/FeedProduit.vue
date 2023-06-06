@@ -38,32 +38,32 @@ getLocation()
     
 <template>
   <section class="py-10">
-   <div class="flex justify-center px-20 gap-4 ">
-      <RouterLink to="FicheRecette" class="w-1/3 aspect-w-1 aspect-h-1">
+   <div class="flex flex-col lg:flex-row justify-center px-10 lg:px-20 gap-4 ">
+      <RouterLink to="FicheRecette" class="lg:w-1/3 w-full aspect-w-1 aspect-h-1">
         <div class="relative h-full">
           <img class="w-full h-full object-cover" src="@/assets/image-limonade.webp" alt="">
           <p class="absolute top-0 left-0 m-2  text-white font-poppins font-medium  text-4xl">Limonade maison</p>
         </div>
       </RouterLink>
-      <GoogleMap :api-key="apiKey" class="w-2/3 h-72" :center="{ lat: lat, lng: lng }" :zoom="15"> 
+      <GoogleMap :api-key="apiKey" class=" lg:w-2/3 w-full h-72" :center="{ lat: lat, lng: lng }" :zoom="15"> 
         <Marker :options="{ position: { lat: lat, lng: lng } }"/>
       </GoogleMap>
     </div>
   <!-- ... -->
-  <div class="flex justify-center px-20 gap-4 w-screen mt-4">
-    <RouterLink to="FicheProduit" class="w-2/3">
+  <div class="flex flex-col lg:flex-row justify-center px-10 lg:px-20 gap-4 w-full mt-4">
+    <RouterLink to="FicheProduit" class="lg:w-2/3 w-full">
       <div class="relative h-full">
         <img class="w-full h-full object-cover" src="@/assets/Rectangle 172.webp" alt="">
         <p class="absolute top-0 left-0 ml-2 text-white font-poppins font-medium  text-4xl">Produits de saison</p>
       </div>
     </RouterLink>
-    <RouterLink to="FicheProduit" class="w-1/4">
+    <RouterLink to="FicheProduit" class="lg:w-1/4 w-full">
       <div class="relative h-full">
         <img class="w-full h-full object-cover" src="@/assets/Rectangle 169.webp" alt="">
         <p class="absolute top-0 left-0 ml-2 text-white font-poppins font-medium  text-4xl">Fruits</p>
       </div>
     </RouterLink>
-    <RouterLink to="FicheProduit" class="w-1/4">
+    <RouterLink to="FicheProduit" class="lg:w-1/4 w-full">
       <div class="relative h-full">
         <img class="w-full h-full object-cover" src="@/assets/Rectangle 171.webp" alt="">
         <p class="absolute top-0 left-0 ml-2 text-white font-poppins font-medium  text-4xl">Légumes</p>

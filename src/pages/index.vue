@@ -27,7 +27,7 @@
 
 
       <section class="m-5  shadow-card-shadow bg-white lg:col-start-5 lg:col-span-4 mb-20">
-        <RouterLink to="/Ficherecette">
+        <RouterLink to="/FicheRecette">
           <div class=" p-5">
             <h2 class=" font-poppins text-green-mid font-bold lg:text-2xl text-base ">Consulter les recettes de <br> nos utilisateurs
             </h2>

@@ -10,8 +10,6 @@ function getPicture(image: ProduitResponse) {
 }
 </script>
 
-
-
 <template>
     <div class="flex items-center flex-row ">
         <h1 class="text-green-dull font-medium text-4xl"> {{ nom_produit }}</h1>
@@ -55,9 +53,9 @@ function getPicture(image: ProduitResponse) {
                     {{ prix_produit }}
                 </p>
                 <div class="mt-10 flex justify-between text-center flex-wrap"> <span
-                        class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base ">ptitebiteemilien</span><span
-                        class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base">ptitebiteemilien</span><span
-                        class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base">ptitebiteemilien</span>
+                        class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base ">oui</span><span
+                        class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base">oui</span><span
+                        class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base">oui</span>
                 </div>
             </section>
         </section>

@@ -2,7 +2,7 @@
 import { allRecette } from '@/backend';
 import Cardrecette from '@/components/Cardrecette.vue';
 const recetteliste = await allRecette();
-console.log(recetteliste)
+
 </script>
 
 
@@ -14,7 +14,7 @@ console.log(recetteliste)
         <ul class=" mt-4" v-for="recettes of recetteliste" :key="recettes.id">
           <RouterLink
            :to="{ 
-            name: 'FicheProduit-id',
+            name: 'FicheRecette-id',
              params: { id: recettes.id } }">
             <Cardrecette class=" col-span-2" v-bind="{ ...recettes }" />
           </RouterLink>

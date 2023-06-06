@@ -5,9 +5,9 @@ import type { RecetteResponse } from '@/pocketbase-types';
 const recetteinfo: RecetteResponse = defineProps<RecetteResponse>()
 const backgroundImage = getPicture(recetteinfo)
 function getPicture(image: RecetteResponse) {
-    return image.image_recette ? pb.getFileUrl(recetteinfo, image.image_recette, { thumb: '10x100' }) : '/image-not-fond.png'
-
+return image.image_recette ? pb.getFileUrl(recetteinfo, image.image_recette, { thumb: '10x100' }) : '/image-not-fond.png'
 }
+
 </script>
 
 
@@ -55,9 +55,9 @@ function getPicture(image: RecetteResponse) {
                     {{ temps_recette }}
                 </p>
                 <div class="mt-10 flex justify-between text-center flex-wrap"> <span
-                        class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base ">ptitebiteemilien</span><span
-                        class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base">ptitebiteemilien</span><span
-                        class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base">ptitebiteemilien</span>
+                        class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base ">oui</span><span
+                        class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base">oui</span><span
+                        class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base">oui</span>
                 </div>
             </section>
         </section>

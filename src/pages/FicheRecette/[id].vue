@@ -2,7 +2,7 @@
 import idrecette from '@/components/idrecette.vue';
 import { getIDrecette } from '@/backend';
 const props = defineProps<{ id: string }>();
-const produits = await getIDrecette(props.id);
+const recette = await getIDrecette(props.id);
 
 
 </script>
@@ -10,7 +10,7 @@ const produits = await getIDrecette(props.id);
 
 
 <template>
-  <idrecette v-bind="{...produits}">
+  <idrecette v-bind="{...recette}">
 
   </idrecette>
   </template>

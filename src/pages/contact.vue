@@ -71,7 +71,7 @@
   </section>
 
   <form action="" method="post" class="bg-green-dull flex   flex-col lg:w-1/2 h-[610px] w-full form-section items-center justify-center">
-    <div class="flex flex-col items-center justify-center  w-5/6 h-5/6"><h2 class="font-bold text-2xl text-beige mb-5">Vous avez une question ?</h2>
+    <div class="flex flex-col items-center justify-center  w-4/6 h-5/6"><h2 class="font-bold text-2xl text-beige mb-5">Vous avez une question ?</h2>
     <div class="flex flex-row gap-2">
       <input type="text" placeholder="Nom" class="pl-2  rounded-full p-1 bg-beige w-1/2 text-green-dull mb-6">
       <input type="text" placeholder="Prénom" class="pl-2 rounded-full p-1 bg-beige w-1/2 text-green-dull mb-6">

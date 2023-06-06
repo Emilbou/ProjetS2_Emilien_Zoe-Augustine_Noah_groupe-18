@@ -13,13 +13,14 @@ return image.image_recette ? pb.getFileUrl(recetteinfo, image.image_recette, { t
 
 
 <template>
-    <div class="flex items-center flex-row ">
-        <h1 class="text-green-dull font-medium text-4xl"> {{ titre_recette }}</h1>
-        <span><img src="@/components/icons/heart-default.svg" alt=""></span>
-        <span><img src="@/components/icons/icon-scart-default.svg" alt=""></span>
-    </div>
 
     <section class="grid grid-cols-12 gap-4 ">
+        <div class=" col-start-3 flex items-center flex-row ">
+        <h1 class=" font-europa-grotesk-sh text-green-dull font-medium text-4xl"> {{ titre_recette }}</h1>
+        <span><img src="@/assets/icones/heart-default.svg" alt=""></span>
+        <span><img src="@/assets/icones/icon-scart.svg" alt=""></span>
+    </div>
+
         <section class="col-start-3 col-end-9 shadow-card-shadow flex flex-col w-full  ">
             <div class="bg-image-cover-produit w-full h-96" :style="{ backgroundImage: `url(${backgroundImage})` }">
             </div>

@@ -15,6 +15,7 @@ const recetteliste = await allRecette();
           <p class="absolute top-0 left-0 m-2  text-white font-poppins font-medium  text-4xl">Salade césar</p>
         </div>
       </RouterLink>
+
       <RouterLink to="FicheRecette" class="w-3/5 h-72 aspect-w-1 aspect-h-1">
         <div class="relative h-full">
           <img class="w-full h-full object-cover" src="@/assets/image-cookies.webp" alt="">
@@ -23,7 +24,7 @@ const recetteliste = await allRecette();
       </RouterLink>
 
     </div>
-    <!-- ... -->
+
     <div class="flex justify-center px-20 gap-4 w-screen mt-4">
       <RouterLink to="FicheProduit" class="w-2/3">
         <div class="relative h-full">
@@ -45,12 +46,16 @@ const recetteliste = await allRecette();
         </div>
       </RouterLink>
     </div>
-    <!-- ... -->
 
   </section>
+
   <section class="flex w-full justify-center px-24">
     <section class="grille grid grid-cols-12 gap-4 ">
+      <div class=" col-start-1 col-span-2">
+        <h3 class="text-green-dull mt-9 font-bold">Toutes les recettes</h3>
+      </div>
       <div class="col-span-12 flex flex-wrap gap-4 ">
+
 
         <ul class=" mt-4" v-for="recettes of recetteliste" :key="recettes.id">
           <RouterLink :to="{

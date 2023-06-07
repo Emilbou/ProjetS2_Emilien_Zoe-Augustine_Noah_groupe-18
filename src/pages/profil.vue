@@ -1,9 +1,11 @@
+<script lang="ts">
+</script>
 <template>
     <div class="bg-image-cover-profil w-full h-28"></div>
     <section>
-        <div class="grid grid-cols-12 gap-4 w-full">
+        <div class="lg:grid lg:grid-cols-12 gap-4 w-full">
             <div class="col-start-3 col-span-1 -mt-5 flex flex-col">
-                <img src="@/assets/photo-woman-1.webp" alt="">
+                <img class=" w-32 lg:w-auto" src="@/assets/photo-woman-1.webp" alt="">
                 <div class="flex justify-evenly">
                     <img src="@/assets/icones/icon-social-facebook.svg" alt="">
                     <img src="@/assets/icones/icon-social-instagram.svg" alt="">

@@ -89,10 +89,12 @@
                         <p class="font-poppins text-green-mid">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Facere,</p>
                         <p class="font-poppins text-green-mid">X 20</p>
-        
+
                     </div>
                 </div>
             </div>
-        </div>     <div class=" pb-52 "></div>
+        </div>
+        <div class=" pb-52 ">
+        </div>
     </main>
 </template>

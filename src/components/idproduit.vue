@@ -14,13 +14,13 @@ function getPicture(image: ProduitResponse) {
 
 <template>
     <div class="flex items-center flex-row ">
-        <h1 class="text-green-dull font-medium text-4xl"> {{ nom_produit }}</h1>
+        <h1 class=" font-europa-grotesk-sh text-green-dull font-medium text-4xl lg: ml-40"> {{ nom_produit }}</h1>
         <span><img src="@/components/icons/heart-default.svg" alt=""></span>
         <span><img src="@/components/icons/icon-scart-default.svg" alt=""></span>
     </div>
 
     <section class="grid grid-cols-12 gap-4 ">
-        <section class="col-start-3 col-end-9 shadow-card-shadow flex flex-col w-full  ">
+        <section class="col-start-3 col-end-9 shadow-card-shadow flex flex-col w-full bg-white ">
             <div class="bg-image-cover-produit w-full h-96" :style="{ backgroundImage: `url(${backgroundImage})` }">
             </div>
             <section class="p-6">
@@ -54,15 +54,10 @@ function getPicture(image: ProduitResponse) {
                 <p class="text-green-dull text-xs font-normal mt-8">
                     {{ prix_produit }}
                 </p>
-                <div class="mt-10 flex justify-between text-center flex-wrap"> <span
-                        class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base ">oui</span><span
-                        class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base">oui</span><span
-                        class="w-9/30 bg-green-light px-6 py-3 m-2 text-center text-beige font-bold text-base">oui</span>
-                </div>
             </section>
         </section>
 
-        <section class="col-start-9 col-end-11 shadow-card-shadow">
+        <section class="col-start-9 col-end-11 shadow-card-shadow bg-white">
             <div class="w-full bg-image-cover-banniere h-24"></div>
             <div class="flex justify-center text-center ">
                 <img class="rounded-full aspect-square w-28 -my-12 " src="@/assets/profile-photo.webp" alt="">
@@ -85,7 +80,11 @@ function getPicture(image: ProduitResponse) {
                 <RouterLink class="text-beige font-normal m-auto w-fit text-xs mb-5 px-3 py-[0.5px] bg-green-dull rounded-full"
                     to="/Profilpage"> Voir le profil</RouterLink>
             </div>
+            
         </section>
+        <div class=" col-start-1 col-span-4 lg:ml-24">
+        <h3 class="text-green-dull mt-9 font-bold">Vous aimerez peut-être...</h3>
+      </div>
     </section>
 
     <section class="flex w-full justify-center px-24">

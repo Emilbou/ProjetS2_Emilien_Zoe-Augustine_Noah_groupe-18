@@ -75,9 +75,10 @@ getLocation()
             </RouterLink>
         </div>
         <!-- ... -->
-
     </section>
-    <section class="flex w-full justify-center px-24">
+    <h3 class="text-green-dull mt-9 font-bold lg:ml-20">Touts les produits</h3>
+
+    <section class="flex w-full justify-center px-24 pb-10">
         <section class="grille grid grid-cols-12 gap-4 ">
             <div class="col-span-12 flex flex-wrap gap-4 ">
 

@@ -8,7 +8,7 @@
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
           <RouterLink to="/" class="flex items-start">
-            <img src="@/assets/Place_des_saveurs_logo.webp" class="h-36 " alt="FlowBite Logo" />
+            <img src="@/assets/logo-default.png" class="h-36 " alt="FlowBite Logo" />
             <p></p>
           </RouterLink>
         </div>
@@ -17,7 +17,6 @@
 
             <RouterLink to="/"> <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Accueil</h2> </RouterLink>
             <RouterLink to="/LegalView"> <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Mentions légales</h2> </RouterLink>
-            <RouterLink to="/about"> <h2 class="mb-6 text-sm font-bold text-green-dull  uppercase ">A propos</h2> </RouterLink>
             <RouterLink to="/contact"> <h2 class="mb-6 text-sm font-bold text-green-dull uppercase ">Contact</h2> </RouterLink>
 
             
@@ -80,7 +79,7 @@
                 <a href="#" class="hover:underline flex"><span><img src="@/assets/icones/icon-phone.webp" alt=""></span><span> 03 81 99 47 34 </span></a>
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:underline flex"><span><img src="@/assets/icones/icon-web.webp" alt=""></span><span> .com</span></a>
+                <a href="#" class="hover:underline flex"><span><img src="@/assets/icones/icon-web.webp" alt=""></span><span> Montbéliard.com</span></a>
               </li>
               
             </ul>

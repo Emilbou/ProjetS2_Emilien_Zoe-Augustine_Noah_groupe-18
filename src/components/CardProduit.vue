@@ -16,7 +16,7 @@ const Produitinfo : ProduitResponse = defineProps<ProduitResponse>();
 
         <h3 class="text-start font-bold text-base text-green-dull"> {{ nom_produit }}</h3>
         <div class="flex flex-row items-center">
-        <span class="text-start font-normal text-xs text-green-dull"> </span> <span class="text-start font-normal text-xs text-green-dull">/ unité</span>
+        <span class="text-start font-normal text-xs text-green-dull"> </span> <span class="text-start font-normal text-xs text-green-dull"> {{ prix_produit }}</span>
         </div>
         <div class="flex flex-row items-center"><span><img src="icons/icon-localisation.svg" alt=""></span><span class="text-start font-normal text-xs text-green-mid"> 25200 Montbéliard</span></div>
     </div>

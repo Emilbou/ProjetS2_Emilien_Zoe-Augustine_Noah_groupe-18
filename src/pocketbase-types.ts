@@ -55,11 +55,12 @@ export type ProduitRecord = {
 
 export type RecetteRecord = {
 	titre_recette?: string
+	image_recette?: string
 	description_recette?: string
 	ingredient_recette?: string
 	etapes_preparation?: string
 	id_consommateur?: string
-	image?: string[]
+	temps_recette?: string
 }
 
 export type UsersRecord = {

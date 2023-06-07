@@ -4,7 +4,7 @@
     <main>
         <img class="" src="src/assets/herbes.webp" alt="">
 
-        <div class="grid grid-cols-1 lg:grid-cols-12 lg:gap-10 grid-rows-4">
+        <div class=" p-5 lg:grid lg:grid-cols-12 lg:gap-10 grid-rows-4">
 
             <h1 class="lg:col-start-4 col-span-9 font-europa-grotesk-sh text-green-dull mt-10 ">Votre panier</h1>
 
@@ -48,8 +48,7 @@
                             <img class="items-end" src="src/assets/croix.svg" alt="">
                         </div>
                         <br>
-                        <p class="font-poppins text-green-mid">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Facere,</p>
+                        <p class="font-poppins text-green-mid">Lorem ipsum dolor sit amet consectetur </p>
                         <p class="font-poppins text-green-mid">X 20</p>
                     </div>
                 </div>
@@ -67,8 +66,7 @@
                             <img class="items-end" src="src/assets/croix.svg" alt="">
                         </div>
                         <br>
-                        <p class="font-poppins text-green-mid">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Facere,</p>
+                        <p class="font-poppins text-green-mid">Lorem ipsum dolor sit amet consectetur</p>
                         <p class="font-poppins text-green-mid">X 20</p>
                     </div>
                 </div>
@@ -86,8 +84,7 @@
                             <img class="items-end" src="src/assets/croix.svg" alt="">
                         </div>
                         <br>
-                        <p class="font-poppins text-green-mid">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Facere,</p>
+                        <p class="font-poppins text-green-mid">Lorem ipsum dolor sit amet consectetur </p>
                         <p class="font-poppins text-green-mid">X 20</p>
 
                     </div>

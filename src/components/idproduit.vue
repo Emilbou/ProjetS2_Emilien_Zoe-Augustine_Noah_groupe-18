@@ -13,13 +13,13 @@ function getPicture(image: ProduitResponse) {
 </script>
 
 <template>
-    <div class="flex items-center flex-row ">
+    <div class="flex items-center flex-row lg:grid lg:grid-cols-12 lg:gap-4 p-5">
         <h1 class=" font-europa-grotesk-sh text-green-dull font-medium text-4xl lg: ml-40"> {{ nom_produit }}</h1>
         <span><img src="@/components/icons/heart-default.svg" alt=""></span>
         <span><img src="@/components/icons/icon-scart-default.svg" alt=""></span>
     </div>
 
-    <section class="grid grid-cols-12 gap-4 ">
+    <section class="lg:grid lg:grid-cols-12 gap-4 ">
         <section class="col-start-3 col-end-9 shadow-card-shadow flex flex-col w-full bg-white ">
             <div class="bg-image-cover-produit w-full h-96" :style="{ backgroundImage: `url(${backgroundImage})` }">
             </div>

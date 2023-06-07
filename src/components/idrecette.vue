@@ -18,7 +18,7 @@ return image.image_recette ? pb.getFileUrl(recetteinfo, image.image_recette, { t
 
 <template>
 
-    <section class="grid grid-cols-12 gap-4 ">
+    <section class="lg:grid lg:grid-cols-12 lg:gap-4 p-5">
         <div class=" col-start-3 flex items-center flex-row ">
         <h1 class=" font-europa-grotesk-sh text-green-dull font-medium text-4xl"> {{ titre_recette }}</h1>
         <span><img src="@/assets/icones/icon-hearth.svg" alt=""></span>
@@ -96,7 +96,7 @@ return image.image_recette ? pb.getFileUrl(recetteinfo, image.image_recette, { t
     </section>
     <section class="flex w-full justify-center px-24">
     <section class="grille grid grid-cols-12 gap-4 ">
-      <div class=" col-start-1 col-span-2">
+      <div class=" col-start-1 col-span-12">
         <h3 class="text-green-dull mt-9 font-bold">Vous aimerez peut-être...</h3>
       </div>
       <div class="col-span-12 flex flex-wrap gap-4 ">
